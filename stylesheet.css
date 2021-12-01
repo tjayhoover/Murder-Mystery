@@ -2,6 +2,35 @@
     box-sizing:border-box;
     margin:0;
 }
+img {
+  display: block;
+}
+
+
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.button:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px orange;
+  
+ }
+.button1 {
+  background-image: url(babycow.jpg); /*this is just an example image for my test */
+}
+.button2 {
+  background-image: url(); 
+}
 
 body {
     margin: 20px;
