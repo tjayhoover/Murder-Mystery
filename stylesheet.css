@@ -5,6 +5,10 @@
 img {
   display: block;
 }
+@font-face {
+    font-family:Amatic;
+    src:url(font/Amatic.ttf);
+}
 
 
 .button{
