@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+}
+@font-face {
+    font-family:Amatic;
+    src:url(font/Amatic.ttf);
+  }
+body {
+    background-color:#272f38;
+}
+#story {
+    align:center;
+    font-family:Amatic;
+    font-size:3.5em;
+    color:white;
+    background-color:#111820;
+    margin:1em;
+    padding:1.2em;
+    padding-bottom:0.5em;
+}
+#two {
+    display:none;
+}
+#three {
+    display:none;
+}
+#arrow {
+    color:white;
+    text-align:center;
+}
+#arrow p {
+    font-size:1.3em;
+    padding:0.5em;
+}
+#speech {
+    color:white;
+    float:left;
+    display:none;
+}
