@@ -39,55 +39,61 @@ body {
     display:none;
 }
 .one{
-  width: 454px;
-  height: 454px;
-  background-image: url(pumpkin0.png);
+   width: 960px;
+  height: 540px;
+
 }
 .two{
-  width: 454px;
-  height: 454px;
+  width: 960px;
+  height: 540px;
   opacity: 0%; /* the opacity is set to zero so only one image can be seen at a time */
-  background-image: url(pumpkin1.png);
+  
+}
+.three{
+   width: 960px;
+  height: 540px;
+  opacity: 0%; 
+  
 }
 .gwen{
-  width: 454px;
-  height: 454px;
+  width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-image:  url(pumpkin2.png);
+  background-image:  url(gwen.png);
 }
 .cletus{
-  width: 454px;
-  height: 454px;
+   width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-image:  url(pumpkin3.png);
+  background-image:  url(cletus.png);
 }
 .betty{
-  width: 454px;
-  height: 454px;
+   width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-image:  url(pumpkin4.png);
+  background-image:  url(betty.png);
 }
 .fred{
-  width: 454px;
-  height: 454px;
+ width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-image:  url(pumpkin5.png);
+  background-image:  url(fred.png);
 }
 .bubba{
-  width: realtive;
-  height: relative;
+   width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-color: black;
+  background-image:  url(bubba.png);
 }
 .effie{
-  width: realtive;
-  height: relative;
+   width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-color: black;
+  background-image:  url(effie.png);
 }
 .you{
-  width: realtive;
-  height: relative;
+   width: 960px;
+  height: 540px;
   opacity: 0%;
-  background-color: black;
+  background-image:  url(you.png);
 }
