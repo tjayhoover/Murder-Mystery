@@ -26,7 +26,7 @@ $(".one").click(function(){
   });
    $(".two").click(function(){
     $(this).hide();
-    $( ".three" ).animate({
+    $( ".gwen" ).animate({
     opacity: 1.00,
    }, 5, "linear");
 });
@@ -72,7 +72,7 @@ $(".one").click(function(){
     opacity: 1.00, 
    }, 5, "linear");
 });
-$(".fred").click(function(){
+$(".three").click(function(){
     $(this).hide();
    }, 5, "linear");
 });
