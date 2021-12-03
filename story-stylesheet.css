@@ -38,3 +38,56 @@ body {
     float:left;
     display:none;
 }
+.one{
+  width: 454px;
+  height: 454px;
+  background-image: url(pumpkin0.png);
+}
+.two{
+  width: 454px;
+  height: 454px;
+  opacity: 0%; /* the opacity is set to zero so only one image can be seen at a time */
+  background-image: url(pumpkin1.png);
+}
+.gwen{
+  width: 454px;
+  height: 454px;
+  opacity: 0%;
+  background-image:  url(pumpkin2.png);
+}
+.cletus{
+  width: 454px;
+  height: 454px;
+  opacity: 0%;
+  background-image:  url(pumpkin3.png);
+}
+.betty{
+  width: 454px;
+  height: 454px;
+  opacity: 0%;
+  background-image:  url(pumpkin4.png);
+}
+.fred{
+  width: 454px;
+  height: 454px;
+  opacity: 0%;
+  background-image:  url(pumpkin5.png);
+}
+.bubba{
+  width: realtive;
+  height: relative;
+  opacity: 0%;
+  background-color: black;
+}
+.effie{
+  width: realtive;
+  height: relative;
+  opacity: 0%;
+  background-color: black;
+}
+.you{
+  width: realtive;
+  height: relative;
+  opacity: 0%;
+  background-color: black;
+}
