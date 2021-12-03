@@ -48,7 +48,7 @@ body {
     width: 33.33%;
 }
 
-#top_left {
+#master_bedroom {
     text-align: center;
     border-style: solid;
     float: left;
@@ -56,7 +56,7 @@ body {
     width: 33.33%;
 }
 
-#top_mid {
+#dining_room {
     text-align: center;
     float: left;
     border-style: solid;
@@ -64,7 +64,14 @@ body {
     width: 33.33%;
 }
 
-#bottom_right {
+#office {
+    text-align: center;
+    border-style: solid;
+    float: left;
+    height: 100px;
+    width: 33.33%;}
+
+#living_room {
     text-align: center;
     border-style: solid;
     float: left;
@@ -72,7 +79,7 @@ body {
     width: 33.33%;
 }
 
-#bottom_left {
+#kitchen {
     text-align: center;
     border-style: solid;
     float: left;
@@ -80,7 +87,7 @@ body {
     width: 33.33%;
 }
 
-#bottom_mid {
+#bathroom {
     text-align: center;
     float: left;
     border-style: solid;
