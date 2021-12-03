@@ -11,7 +11,7 @@ $("#master_bedroom").click(function(){
 });
 
 
-$('#dining_room').click(function() {
+$('#office').click(function() {
   $(this).toggleClass('cur', 'room');
   return false;
 })
