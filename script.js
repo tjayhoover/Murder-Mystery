@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("#top_left").click(function(){
+$("#master_bedroom").click(function(){
     $(this).css({'postion': 'absolute', 'top': '100px', 'left': '100px', 'z-index': '100',
      'width': '500px', 'float': 'none', 'height': '500px', 'background-color': 'green'});
 
@@ -11,7 +11,7 @@ $("#top_left").click(function(){
 });
 
 
-$('#top_right').click(function() {
+$('#dining_room').click(function() {
   $(this).toggleClass('cur', 'room');
   return false;
 })
