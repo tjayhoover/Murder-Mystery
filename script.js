@@ -30,30 +30,57 @@ $(".one").click(function(){
     opacity: 1.00,
    }, 5, "linear");
 });
-  $(".three").click(function(){
+  $(".gwen").click(function(){
     $(this).hide();
-    $( ".four" ).animate({
+    $( ".cletus" ).animate({
     opacity: 1.00,
    }, 5, "linear");
 });
-  $(".four").click(function(){
+  $(".cletus").click(function(){
     $(this).hide(); /* this allows the next thing to come up and the other to go away */
-    $( ".five" ).animate({
+    $( ".betty" ).animate({
     opacity: 1.00,
    }, 5, "linear");
 });
-  $(".five").click(function(){
+  $(".betty").click(function(){
     $(this).hide();
-    $( ".six" ).animate({
+    $( ".fred" ).animate({
     opacity: 1.00,
    }, 5, "linear");
 });
-  $(".six").click(function(){
+  $(".fred").click(function(){
     $(this).hide();
-    $( ".seven" ).animate({
+    $( ".bubba" ).animate({
     opacity: 1.00, 
    }, 5, "linear");
 });
+    $(".bubba").click(function(){
+    $(this).hide();
+    $( ".effie" ).animate({
+    opacity: 1.00, 
+   }, 5, "linear");
+});
+   $(".effie").click(function(){
+    $(this).hide();
+    $( ".you" ).animate({
+    opacity: 1.00, 
+   }, 5, "linear");
+});
+ $(".you").click(function(){
+    $(this).hide();
+    $( ".three" ).animate({
+    opacity: 1.00, 
+   }, 5, "linear");
+});
+$(".fred").click(function(){
+    $(this).hide();
+   }, 5, "linear");
+});
+
+
+
+
+
 
 });
 
