@@ -16,5 +16,45 @@ $('#top_right').click(function() {
   return false;
 })
 
+$(".one").click(function(){
+    $(this).hide();
+    $( ".two" ).animate({
+    opacity: 1.00,
+  }, 5, function() {
+  });
+
+  });
+   $(".two").click(function(){
+    $(this).hide();
+    $( ".three" ).animate({
+    opacity: 1.00,
+   }, 5, "linear");
+});
+  $(".three").click(function(){
+    $(this).hide();
+    $( ".four" ).animate({
+    opacity: 1.00,
+   }, 5, "linear");
+});
+  $(".four").click(function(){
+    $(this).hide(); /* this allows the next thing to come up and the other to go away */
+    $( ".five" ).animate({
+    opacity: 1.00,
+   }, 5, "linear");
+});
+  $(".five").click(function(){
+    $(this).hide();
+    $( ".six" ).animate({
+    opacity: 1.00,
+   }, 5, "linear");
+});
+  $(".six").click(function(){
+    $(this).hide();
+    $( ".seven" ).animate({
+    opacity: 1.00, 
+   }, 5, "linear");
+});
+
+});
 
 }); //end doc.ready
