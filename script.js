@@ -14,7 +14,7 @@ $("#master_bedroom").click(function(){
 $('#office').click(function() {
   $(this).toggleClass('cur', 'room');
   return false;
-})
+});
 
 $(".one").click(function(){
     $(this).hide();
