@@ -1,83 +1,97 @@
 * {
-    box-sizing:border-box;
-    margin:0;
-}
-@font-face {
-    font-family:Amatic;
-    src:url(font/Amatic.ttf);
-  }
-body {
-    background-color:#272f38;
-}
-#arrow {
-    color:white;
-    text-align:center;
-}
-#arrow p {
-    font-size:1.3em;
-    padding:0.5em;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+@font-face {
+  font-family: Amatic;
+  src: url(font/Amatic.ttf);
+}
+
+body {
+  background-color: #272f38;
+}
+
+#arrow {
+  color: white;
+  text-align: center;
+}
+
+#arrow p {
+  font-size: 1.3em;
+  padding: 0.5em;
+}
 
 p {
-    text-align:center;
-    font-family:Amatic;
-    font-size:3.5em;
-    color:white;
-    background-color:#111820;
-    margin:1em;
-    padding:1.2em;
-    padding-bottom:0.5em;
+  text-align: center;
+  font-family: Amatic;
+  font-size: 3.5em;
+  color: white;
+  background-color: #111820;
+  margin: 1em;
+  padding: 1.2em;
+  padding-bottom: 0.5em;
 }
-.one{
-   width: 960px;
+
+.one {
+  width: 960px;
   height: 540px;
 
 }
-.two{
-  width: 960px;
-  height: 540px;
-  opacity: 0%; /* the opacity is set to zero so only one image can be seen at a time */
-  
-}
-.three{
-   width: 960px;
-  height: 540px;
-  opacity: 0%; 
-  
-}
-#gwen{
+
+.two {
   width: 960px;
   height: 540px;
   opacity: 0%;
+  /* the opacity is set to zero so only one image can be seen at a time */
+
 }
-#cletus{
-   width: 960px;
+
+.three {
+  width: 960px;
+  height: 540px;
+  opacity: 0%;
+  text-decoration: none;
+}
+
+#gwen {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }
-#betty{
-   width: 960px;
+
+#cletus {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }
-#fred{
- width: 960px;
+
+#betty {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }
-#bubba{
-   width: 960px;
+
+#fred {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }
-#effie{
-   width: 960px;
+
+#bubba {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }
-#you{
-   width: 960px;
+
+#effie {
+  width: 960px;
+  height: 540px;
+  opacity: 0%;
+}
+
+#you {
+  width: 960px;
   height: 540px;
   opacity: 0%;
 }

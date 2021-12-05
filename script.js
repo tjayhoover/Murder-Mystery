@@ -77,10 +77,5 @@ $(document).ready(function () {
     }, 5, "linear");
   });
 
-  $(".three").click(function () {
-    $(this).hide();
-  }, 5, "linear");
-
-
 
 }); //end doc.ready
