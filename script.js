@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-// These functions expand the rooms when you click on them
+  // These functions expand the rooms when you click on them
   $('#office').click(function () {
     $('#o').toggleClass('cur');
     $('#lr').toggle();
@@ -22,7 +22,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-  
+
   $('#master_bedroom').click(function () {
     $('#mb').toggleClass('cur');
     $('#o').toggle();
@@ -33,7 +33,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-  
+
   $('#guest_room').click(function () {
     $('#gr').toggleClass('cur');
     $('#o').toggle();
@@ -44,7 +44,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-  
+
   $('#kitchen').click(function () {
     $('#k').toggleClass('cur');
     $('#o').toggle();
@@ -55,7 +55,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-  
+
   $('#dining_room').click(function () {
     $('#dr').toggleClass('cur');
     $('#o').toggle();
@@ -66,7 +66,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-  
+
   $('#bathroom').click(function () {
     $('#br').toggleClass('cur');
     $('#o').toggle();

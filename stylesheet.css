@@ -1,39 +1,44 @@
 * {
-    box-sizing:border-box;
-    margin:0;
+    box-sizing: border-box;
+    margin: 0;
 }
+
 img {
-  display: block;
+    display: block;
 }
+
 @font-face {
-    font-family:Amatic;
-    src:url(font/Amatic.ttf);
+    font-family: Amatic;
+    src: url(font/Amatic.ttf);
 }
 
 
-.button{
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  transition: 1.5s;
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 1.5s;
 }
 
-.button:hover{
-  transform: scale(1.2);
-  box-shadow: 0 0 15px orange;
-  
- }
+.button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px orange;
+
+}
+
 .button1 {
-  background-image: url(babycow.jpg); /*this is just an example image for my test */
+    background-image: url(babycow.jpg);
+    /*this is just an example image for my test */
 }
+
 .button2 {
-  background-image: url(); 
+    background-image: url();
 }
 
 body {
@@ -59,12 +64,12 @@ body {
 }
 
 .office {
-   top: 50%;
-   left: 20%;
-   position: absolute;
-   text-align: center;
-   height: auto;
-   width: 25%;
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    height: auto;
+    width: 25%;
 }
 
 .living_room {
@@ -128,7 +133,7 @@ body {
 }
 
 .cur {
-    top: 20%;
+    top: 30%;
     left: 0;
     right: 0;
     margin-left: auto;
