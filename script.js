@@ -16,65 +16,47 @@ $(document).ready(function () {
 
   $(".one").click(function () {
     $(this).hide();
-    $(".two").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $(".two").show();
   });
 
   $(".two").click(function () {
     $(this).hide();
-    $("#gwen").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#gwen").show();
   });
 
   $("#gwen").click(function () {
     $(this).hide();
-    $("#cletus").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#cletus").show();
   });
 
   $("#cletus").click(function () {
     $(this).hide(); /* this allows the next thing to come up and the other to go away */
-    $("#betty").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#betty").show();
   });
 
   $("#betty").click(function () {
     $(this).hide();
-    $("#fred").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#fred").show();
   });
 
   $("#fred").click(function () {
     $(this).hide();
-    $("#bubba").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#bubba").show();
   });
 
   $("#bubba").click(function () {
     $(this).hide();
-    $("#effie").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#effie").show();
   });
 
   $("#effie").click(function () {
     $(this).hide();
-    $("#you").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $("#you").show();
   });
 
   $("#you").click(function () {
     $(this).hide();
-    $(".three").animate({
-      opacity: 1.00,
-    }, 5, "linear");
+    $(".three").show();
   });
 
 

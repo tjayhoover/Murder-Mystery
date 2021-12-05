@@ -42,7 +42,7 @@ p {
 .two {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
   /* the opacity is set to zero so only one image can be seen at a time */
 
 }
@@ -50,48 +50,48 @@ p {
 .three {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
   text-decoration: none;
 }
 
 #gwen {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #cletus {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #betty {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #fred {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #bubba {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #effie {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
 
 #you {
   width: 960px;
   height: 540px;
-  opacity: 0%;
+  display: none;
 }
