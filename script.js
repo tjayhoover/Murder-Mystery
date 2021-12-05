@@ -2,79 +2,79 @@ $(document).ready(function () {
 
 // These functions expand the rooms when you click on them
   $('#office').click(function () {
-    $(this).toggleClass('cur');
-    $('#living_room').toggle();
-    $('#master_bedroom').toggle();
-    $('#guest_room').toggle();
-    $('#kitchen').toggle();
-    $('#dining_room').toggle();
-    $('#bathroom').toggle();
+    $('#o').toggleClass('cur');
+    $('#lr').toggle();
+    $('#mb').toggle();
+    $('#gr').toggle();
+    $('#k').toggle();
+    $('#dr').toggle();
+    $('#br').toggle();
     return false;
   });
 
   $('#living_room').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#master_bedroom').toggle();
-    $('#guest_room').toggle();
-    $('#kitchen').toggle();
-    $('#dining_room').toggle();
-    $('#bathroom').toggle();
+    $('#lr').toggleClass('cur');
+    $('#o').toggle();
+    $('#mb').toggle();
+    $('#gr').toggle();
+    $('#k').toggle();
+    $('#dr').toggle();
+    $('#br').toggle();
     return false;
   });
   
   $('#master_bedroom').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#living_room').toggle();
-    $('#guest_room').toggle();
-    $('#kitchen').toggle();
-    $('#dining_room').toggle();
-    $('#bathroom').toggle();
+    $('#mb').toggleClass('cur');
+    $('#o').toggle();
+    $('#lr').toggle();
+    $('#gr').toggle();
+    $('#k').toggle();
+    $('#dr').toggle();
+    $('#br').toggle();
     return false;
   });
   
   $('#guest_room').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#master_bedroom').toggle();
-    $('#living_room').toggle();
-    $('#kitchen').toggle();
-    $('#dining_room').toggle();
-    $('#bathroom').toggle();
+    $('#gr').toggleClass('cur');
+    $('#o').toggle();
+    $('#mb').toggle();
+    $('#lr').toggle();
+    $('#k').toggle();
+    $('#dr').toggle();
+    $('#br').toggle();
     return false;
   });
   
   $('#kitchen').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#master_bedroom').toggle();
-    $('#guest_room').toggle();
-    $('#living_room').toggle();
-    $('#dining_room').toggle();
-    $('#bathroom').toggle();
+    $('#k').toggleClass('cur');
+    $('#o').toggle();
+    $('#mb').toggle();
+    $('#gr').toggle();
+    $('#lr').toggle();
+    $('#dr').toggle();
+    $('#br').toggle();
     return false;
   });
   
   $('#dining_room').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#master_bedroom').toggle();
-    $('#guest_room').toggle();
-    $('#kitchen').toggle();
-    $('#living_room').toggle();
-    $('#bathroom').toggle();
+    $('#dr').toggleClass('cur');
+    $('#o').toggle();
+    $('#mb').toggle();
+    $('#gr').toggle();
+    $('#k').toggle();
+    $('#lr').toggle();
+    $('#br').toggle();
     return false;
   });
   
   $('#bathroom').click(function () {
-    $(this).toggleClass('cur');
-    $('#office').toggle();
-    $('#master_bedroom').toggle();
-    $('#guest_room').toggle();
-    $('#kitchen').toggle();
-    $('#dining_room').toggle();
-    $('#living_room').toggle();
+    $('#br').toggleClass('cur');
+    $('#o').toggle();
+    $('#mb').toggle();
+    $('#gr').toggle();
+    $('#k').toggle();
+    $('#dr').toggle();
+    $('#lr').toggle();
     return false;
   });
 
