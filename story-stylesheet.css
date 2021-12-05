@@ -12,16 +12,6 @@ body {
   background-color: #272f38;
 }
 
-#arrow {
-  color: white;
-  text-align: center;
-}
-
-#arrow p {
-  font-size: 1.3em;
-  padding: 0.5em;
-}
-
 p {
   text-align: center;
   font-family: Amatic;
