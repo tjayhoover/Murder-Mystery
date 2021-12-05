@@ -41,58 +41,46 @@ body {
 }
 
 .room {
+    position: absolute;
     text-align: center;
     border-style: solid;
-    float: left;
-    height: 100px;
-    width: 33.33%;
+    height: auto;
+    width: 25%;
 }
 
 #master_bedroom {
-    text-align: center;
-    border-style: solid;
-    float: left;
-    height: 100px;
-    width: 33.33%;
+    top: 15%;
+    left: 10%;
 }
 
 #dining_room {
-    text-align: center;
-    float: left;
-    border-style: solid;
-    height: 100px;
-    width: 33.33%;
+    top: 15%;
+    right: 10%;
 }
 
 #office {
-    text-align: center;
-    border-style: solid;
-    float: left;
-    height: 100px;
-    width: 33.33%;}
+   top: 50%;
+   left: 20%;
+}
 
 #living_room {
-    text-align: center;
-    border-style: solid;
-    float: left;
-    height: 100px;
-    width: 33.33%;
+    top: 50%;
+    right: 20%;
 }
 
 #kitchen {
-    text-align: center;
-    border-style: solid;
-    float: left;
-    height: 100px;
-    width: 33.33%;
+    top: 85%;
+    left: 10%;
 }
 
 #bathroom {
-    text-align: center;
-    float: left;
-    border-style: solid;
-    height: 100px;
-    width: 33.33%;
+    top: 85%;
+    right: 10%;
+}
+
+#guest_room {
+    top: 85%;
+    right: 37.5%;
 }
 
 #current_room {
@@ -120,4 +108,8 @@ body {
     background-color: black;
     width: 800px;
     height: 500px;
+}
+
+h2, h4 {
+    text-align: center;
 }
