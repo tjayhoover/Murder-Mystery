@@ -127,6 +127,10 @@ body {
     height: 500px;
 }
 
+.room_name {
+    padding-bottom: 1px;
+}
+
 .cur {
     top: 30%;
     left: 0;
