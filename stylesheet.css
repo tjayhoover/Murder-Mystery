@@ -142,7 +142,11 @@ body {
     z-index: 100;
 }
 
-h2, h4 {
-    text-align: center;
- 
+#headingone { text-align: center;
+            font-family: Amatic; 
+            font-size: 35px;
 }
+
+#headingtwo {text-align: center;
+            font-family: Amatic; 
+            font-size: 25px; }
