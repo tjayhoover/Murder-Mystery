@@ -34,11 +34,49 @@ img {
 
 .button1 {
     background-image: url(babycow.jpg);
+    display: none;
     /*this is just an example image for my test */
 }
 
 .button2 {
     background-image: url();
+    display: none;
+}
+.button3 {
+    background-image: url();
+    display: none;
+}
+.button4 {
+    background-image: url();
+    display: none;
+}
+.button5 {
+    background-image: url();
+    display: none;
+}
+.button6 {
+    background-image: url();
+    display: none;
+}
+.button7 {
+    background-image: url();
+    display: none;
+}
+.button8 {
+    background-image: url();
+    display: none;
+}
+.button9 {
+    background-image: url();
+    display: none;
+}
+.button10 {
+    background-image: url();
+    display: none;
+}
+.button11 {
+    background-image: url();
+    display: none;
 }
 
 body {
