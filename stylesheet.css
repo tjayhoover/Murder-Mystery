@@ -52,6 +52,7 @@ body {
     text-align: center;
     height: auto;
     width: 25%;
+    font-family: Amatic;
 }
 
 .dining_room {
@@ -129,7 +130,6 @@ body {
 
 .room_name {
     padding-bottom: 1px;
-    font-family: Amatic;
 }
 
 .cur {
