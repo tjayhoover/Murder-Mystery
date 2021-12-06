@@ -144,4 +144,6 @@ body {
 
 h2, h4 {
     text-align: center;
+    font-family: Amatic;
+    src: url(font/Amatic.ttf); 
 }
