@@ -33,37 +33,36 @@ img {
 }
 
 .button1 {
-    background-image: url(babycow.jpg);
+    background-image: url(rooms/bloodstain.jpg);
     display: none;
-    /*this is just an example image for my test */
 }
 
 .button2 {
-    background-image: url();
+    background-image: url(rooms/bloodstain.jpg);
     display: none;
 }
 .button3 {
-    background-image: url();
+    background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
     display: none;
 }
 .button4 {
-    background-image: url();
+    background-image: url(rooms/clothingonfloor.png);
     display: none;
 }
 .button5 {
-    background-image: url();
+    background-image: url(rooms/hairbrush.png);
     display: none;
 }
 .button6 {
-    background-image: url();
+    background-image: url(rooms/knife.png);
     display: none;
 }
 .button7 {
-    background-image: url();
+    background-image: url(rooms/notes.png);
     display: none;
 }
 .button8 {
-    background-image: url();
+    background-image: url(rooms/suitcase.png);
     display: none;
 }
 .button9 {
