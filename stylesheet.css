@@ -91,6 +91,8 @@ body {
     width: 25%;
 }
 
+#master_bedroom {font-family: Amatic; }
+
 .dining_room {
     top: 15%;
     right: 10%;
