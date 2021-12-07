@@ -32,7 +32,7 @@ img {
     margin: 4px 2px;
     cursor: pointer;
     transition: 1.5s;
-    background-color: transparent;
+    /*background-color: transparent;*/
    
 }
 
@@ -44,15 +44,20 @@ img {
 
 .button1 {
     display:none;
+    width:20%;
     position: absolute;
     top: 20%;
     left: 30%;
-    background-color: transparent;
+     /*background-color: transparent;*/
 }
 
 .button2 {
-    background-image: url(rooms/bloodstain.jpg);
-    display: none;
+   display:none;
+    width:20%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+     /*background-color: transparent;*/
 }
 .button3 {
     background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
