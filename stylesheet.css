@@ -23,6 +23,9 @@ img {
     cursor: pointer;
     transition: 1.5s;
     display:none;
+    position: absolute;
+    top: 20%;
+    left: 30%;
 }
 
 .button:hover {
@@ -32,9 +35,7 @@ img {
 }
 
 .button1 {
-    position: absolute;
-    top: 20%;
-    left: 30%;
+    
     display: none;
 }
 
