@@ -24,11 +24,13 @@ img {
     margin: 4px 2px;
     cursor: pointer;
     transition: 1.5s;
+    display:none;
 }
 
 .button:hover {
     transform: scale(1.2);
     box-shadow: 0 0 15px orange;
+    display:none;
 
 }
 
