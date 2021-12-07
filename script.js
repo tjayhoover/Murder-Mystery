@@ -11,7 +11,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-
+// Hello
   $('#living_room').click(function () {
     $('#lr').toggleClass('cur');
     $('#o').toggle();
