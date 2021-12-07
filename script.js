@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
   // These functions expand the rooms when you click on them
+  // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
   $('#office').click(function () {
     $('#o').toggleClass('cur');
     $('#lr').toggle();
@@ -11,7 +12,7 @@ $(document).ready(function () {
     $('#br').toggle();
     return false;
   });
-// Hello
+
   $('#living_room').click(function () {
     $('#lr').toggleClass('cur');
     $('#o').toggle();
@@ -54,6 +55,7 @@ $(document).ready(function () {
     $('#lr').toggle();
     $('#dr').toggle();
     $('#br').toggle();
+    $(".button2").show();
     return false;
   });
 

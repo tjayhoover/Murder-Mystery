@@ -11,86 +11,94 @@ img {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
 }
-#bloodstain {
-    width:15%;
+
+/* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the button. */
+.clue_pic {
+    width: 100%;
 }
-#teddybear {
-    width:10%;
-}
-#teddybear {
-    width:10%;
-}
-    
-    
-    
+
+/* Button is a parent class that describes a few things that are true about every button. To change individual buttons,
+please use the specific class for that button, i.e. button1 or button2. DO NOT CHANGE THIS CLASS.*/
 .button {
     border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
     transition: 1.5s;
-    /*background-color: transparent;*/
-   
+    background-color: transparent;
+
 }
 
+/* This just makes the clue enlarge slightly when the mouse hovers over it */
 .button:hover {
-    transform: scale(1.2);
-    display:none;
-
+    transform: scale(1.1);
+    display: none;
 }
 
+/* When implementing the clues, please remember that the JavaScript needs to be changed as well so that the clues only show up once the user
+enters the room. If you have any questions about which JavaScript needs to be changed, ask Tyler or Breana.
+Also, remember that every image needs a class="clue_pic". This sets the width to 100% of the container, which is necessary. */
+
+/* Button1 and button2, etc., are classes that describe a specific button. A distinct class is required for every single clue. 
+These classes set display to none so the clue doesn't show up before the user enters the room.
+They also set the width of the button, which sets how big the picture of the clue is.
+The width of these classes will determine the width of the picture. Also, the postion is absolute, and the percentages represent 
+where the clue is in the room. I used the opacity to make the blood just a little less bright. */
 .button1 {
-    display:none;
-    width:20%;
+    display: none;
+    width: 4%;
     position: absolute;
-    top: 20%;
-    left: 30%;
-     /*background-color: transparent;*/
+    bottom: 4%;
+    left: 40%;
+    opacity: .8;
 }
 
 .button2 {
-   display:none;
-    width:20%;
+    display: none;
+    width: 6%;
     position: absolute;
-    top: 20%;
-    left: 30%;
-     /*background-color: transparent;*/
+    top: 55%;
+    left: 72%;
+    transform: rotate(-20deg);
 }
+
 .button3 {
     background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
     display: none;
 }
+
 .button4 {
     background-image: url(rooms/clothingonfloor.png);
     display: none;
 }
+
 .button5 {
     background-image: url(rooms/hairbrush.png);
     display: none;
 }
+
 .button6 {
     background-image: url(rooms/knife.png);
     display: none;
 }
+
 .button7 {
     background-image: url(rooms/notes.png);
     display: none;
 }
+
 .button8 {
     background-image: url(rooms/suitcase.png);
     display: none;
 }
+
 .button9 {
     background-image: url();
     display: none;
 }
+
 .button10 {
     background-image: url();
     display: none;
 }
+
 .button11 {
     background-image: url();
     display: none;
@@ -197,13 +205,14 @@ body {
     z-index: 100;
 }
 
-#headingone { text-align: center;
-            font-family: Amatic; 
-            font-size: 35px;
+#headingone {
+    text-align: center;
+    font-family: Amatic;
+    font-size: 35px;
 }
 
-#headingtwo {text-align: center;
-            font-family: Amatic; 
-            font-size: 25px; }
-
-
+#headingtwo {
+    text-align: center;
+    font-family: Amatic;
+    font-size: 25px;
+}
