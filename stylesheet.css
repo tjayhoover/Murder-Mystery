@@ -11,34 +11,89 @@ img {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
 }
-
-
+#bloodstain {
+    width:15%;
+}
+#teddybear {
+    width:10%;
+}
+#teddybear {
+    width:10%;
+}
+    
+    
+    
 .button {
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     transition: 1.5s;
+    /*background-color: transparent;*/
+   
 }
 
 .button:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 15px orange;
+    display:none;
 
 }
 
 .button1 {
-    background-image: url(babycow.jpg);
-    /*this is just an example image for my test */
+    display:none;
+    width:20%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+     /*background-color: transparent;*/
 }
 
 .button2 {
+   display:none;
+    width:20%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+     /*background-color: transparent;*/
+}
+.button3 {
+    background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
+    display: none;
+}
+.button4 {
+    background-image: url(rooms/clothingonfloor.png);
+    display: none;
+}
+.button5 {
+    background-image: url(rooms/hairbrush.png);
+    display: none;
+}
+.button6 {
+    background-image: url(rooms/knife.png);
+    display: none;
+}
+.button7 {
+    background-image: url(rooms/notes.png);
+    display: none;
+}
+.button8 {
+    background-image: url(rooms/suitcase.png);
+    display: none;
+}
+.button9 {
     background-image: url();
+    display: none;
+}
+.button10 {
+    background-image: url();
+    display: none;
+}
+.button11 {
+    background-image: url();
+    display: none;
 }
 
 body {
@@ -114,11 +169,6 @@ body {
     border-style: solid;
 }
 
-.room_name {
-    margin-top: -10%;
-    margin-left: -10%;
-}
-
 #current_room {
     position: absolute;
     top: 40px;
@@ -132,6 +182,10 @@ body {
     height: 500px;
 }
 
+.room_name {
+    padding-bottom: 1px;
+}
+
 .cur {
     top: 30%;
     left: 0;
@@ -143,6 +197,13 @@ body {
     z-index: 100;
 }
 
-h2, h4 {
-    text-align: center;
+#headingone { text-align: center;
+            font-family: Amatic; 
+            font-size: 35px;
 }
+
+#headingtwo {text-align: center;
+            font-family: Amatic; 
+            font-size: 25px; }
+
+

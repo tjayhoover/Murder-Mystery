@@ -20,6 +20,7 @@ $(document).ready(function () {
     $('#k').toggle();
     $('#dr').toggle();
     $('#br').toggle();
+    $(".button1").show();
     return false;
   });
 
