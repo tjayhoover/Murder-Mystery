@@ -11,8 +11,10 @@ img {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
 }
-
-
+#bloodstain {
+    width:10%;
+}
+    
 .button {
     border: none;
     padding: 15px 32px;
@@ -36,7 +38,6 @@ img {
     position: absolute;
     top: 20%;
     left: 30%;
-    background-image: url(rooms/bloodstain.png) width:200px;
 }
 
 .button2 {
