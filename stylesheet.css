@@ -34,7 +34,9 @@ img {
 }
 
 .button1 {
-   
+    position: absolute;
+    top: 20%;
+    left: 30%;
     display: none;
 }
 
