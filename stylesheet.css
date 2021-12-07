@@ -32,6 +32,7 @@ img {
     margin: 4px 2px;
     cursor: pointer;
     transition: 1.5s;
+    background-color: transparent;
    
 }
 
@@ -46,6 +47,7 @@ img {
     position: absolute;
     top: 20%;
     left: 30%;
+    background-color: transparent;
 }
 
 .button2 {
