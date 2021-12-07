@@ -12,8 +12,16 @@ img {
     src: url(font/Amatic.ttf);
 }
 #bloodstain {
+    width:2%;
+}
+#teddybear {
     width:10%;
 }
+#teddybear {
+    width:10%;
+}
+    
+    
     
 .button {
     border: none;
