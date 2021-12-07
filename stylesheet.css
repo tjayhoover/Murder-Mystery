@@ -32,11 +32,11 @@ img {
 }
 
 .button1 {
-     display:none;
+    display:none;
     position: absolute;
     top: 20%;
     left: 30%;
-    display: none;
+    background-image: url(rooms/bloodstain.jpg) width:200px;
 }
 
 .button2 {
