@@ -84,6 +84,10 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 .button3 {
     background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
     display: none;
+     width: 6%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
 }
 
 .button4 {
@@ -95,11 +99,12 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     display: none;
     width: 4%;
     position: absolute;
-    bottom: 56.5%;
-    left: 39.5%;
+    bottom: 4%;
+    left: 40%;
     opacity: .8;
-    transform: rotate(-20deg);
+    transform: scale(1.1);
 }
+
 .button6 {
     background-image: url(rooms/knife.png);
     display: none;
