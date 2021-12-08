@@ -89,6 +89,7 @@ $(document).ready(function () {
     $('#lr').toggle();
     $(".hairbrush").toggle();
     $(".hand").toggle();
+    $(".splatter").toggle();
     return false;
   });
 
