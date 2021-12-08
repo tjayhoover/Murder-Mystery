@@ -50,6 +50,7 @@ $(document).ready(function () {
     $('#dr').toggle();
     $('#br').toggle();
     $(".boots").toggle();
+    $(".teddybear").toggle();
     return false;
   });
 
