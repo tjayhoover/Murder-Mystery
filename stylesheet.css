@@ -162,10 +162,10 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 
 .hand {
     display: none;
-    width: 10%;
+    width: 7%;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 57%;
+    left: 48%;
 }
 
 body {
