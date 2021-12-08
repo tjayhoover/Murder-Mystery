@@ -46,6 +46,8 @@ $(document).ready(function () {
     $('#br').toggle();
     $(".button3").toggle();
     return false;
+  });
+  
   $('#office').click(function () {
     $('#o').toggleClass('cur');
     $('#lr').toggle();
