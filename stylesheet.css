@@ -164,7 +164,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     display: none;
     width: 7%;
     position: absolute;
-    top: 57%;
+    top: 55%;
     left: 48%;
 }
 
@@ -174,6 +174,15 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     position: absolute;
     top: 59%;
     left: 49%;
+}
+
+.splatter {
+    display: none;
+    width: 7%;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+    opacity: .8;
 }
 
 body {
