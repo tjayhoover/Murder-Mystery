@@ -168,6 +168,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 48%;
 }
 
+.teddybear {
+    display: none;
+    width: 7%;
+    position: absolute;
+    top: 59%;
+    left: 49%;
+}
+
 body {
     margin: 20px;
     background-color: #272f38;
