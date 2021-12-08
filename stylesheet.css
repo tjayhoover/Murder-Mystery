@@ -108,6 +108,10 @@ body {
     margin: 20px;
 }
 
+p { font-family: Amatic; 
+    font-size: 20px;
+}
+
 .master_bedroom {
     top: 15%;
     left: 10%;
@@ -115,8 +119,6 @@ body {
     text-align: center;
     height: auto;
     width: 25%;
-    font-family: Amatic; 
-    font-size: 20px;
 }
 
 .dining_room {
