@@ -21,7 +21,7 @@ $(document).ready(function () {
     $('#k').toggle();
     $('#dr').toggle();
     $('#br').toggle();
-    $(".button1").show();
+    $(".button1").toggle();
     return false;
   });
 
@@ -55,7 +55,7 @@ $(document).ready(function () {
     $('#lr').toggle();
     $('#dr').toggle();
     $('#br').toggle();
-    $(".button2").show();
+    $(".button2").toggle();
     return false;
   });
 
