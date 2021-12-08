@@ -62,7 +62,7 @@ These classes set display to none so the clue doesn't show up before the user en
 They also set the width of the button, which sets how big the picture of the clue is.
 The width of these classes will determine the width of the picture. Also, the postion is absolute, and the percentages represent 
 where the clue is in the room. I used the opacity to make the blood just a little less bright. */
-.button1 {
+.bloodstain1 {
     display: none;
     width: 4%;
     position: absolute;
@@ -71,7 +71,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     opacity: .8;
 }
 
-.button2 {
+.knife {
     display: none;
     width: 6%;
     position: absolute;
@@ -80,7 +80,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     transform: rotate(-20deg);
 }
 
-.button3 {
+.boots {
     display: none;
     width: 8%;
     position: absolute;
@@ -88,7 +88,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 70%;
 }
 
-.button4 {
+.clothingonfloor {
     display: none;
     width: 17%;
     position: absolute;
@@ -96,7 +96,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 78%;
 }
 
-.button5 {
+.hairbrush {
     display: none;
     width: 4%;
     position: absolute;
@@ -106,7 +106,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     transform: rotate(-20deg);
 }
 
-.button6 {
+.flowerpot {
     display: none;
     width: 11%;
     position: absolute;
@@ -114,7 +114,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 55%;
 }
 
-.button7 {
+.notes {
     display: none;
     width: 3%;
     position: absolute;
@@ -123,7 +123,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     opacity: .8;
 }
 
-.button8 {
+.suitcase {
     display: none;
     width: 8%;
     position: absolute;
@@ -131,7 +131,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 40%;
 }
 
-.button9 {
+.bloodstain2 {
     display: none;
     width: 8%;
     position: absolute;
@@ -140,7 +140,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     opacity:.8;
 }
 
-.button10 {
+.footprints {
     display: none;
     width: 15%;
     position: absolute;
@@ -148,7 +148,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 80%;
 }
 
-.button11 {
+.hand {
     display: none;
     width: 10%;
     position: absolute;
