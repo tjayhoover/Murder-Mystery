@@ -95,12 +95,11 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     display: none;
     width: 4%;
     position: absolute;
-    bottom: 4%;
-    left: 40%;
+    bottom: 56.5%;
+    left: 39.5%;
     opacity: .8;
-    transform: scale(1.1);
+    transform: rotate(-20deg);
 }
-
 .button6 {
     background-image: url(rooms/knife.png);
     display: none;
