@@ -97,8 +97,13 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 }
 
 .button5 {
-    background-image: url(rooms/hairbrush.png);
     display: none;
+    width: 4%;
+    position: absolute;
+    bottom: 56.5%;
+    left: 39.5%;
+    opacity: .8;
+    transform: rotate(-20deg);
 }
 
 .button6 {
