@@ -16,18 +16,21 @@ h1 {
     text-align: center;
     font-family: Amatic;
     font-size: 35px;
+    color:white;
 }
 
 h2 {
     text-align: center;
     font-family: Amatic;
     font-size: 25px;
+    color:white;
 }
 
 h5 {
     font-family: Amatic;
     font-size: 25px;
     font-weight: bolder;
+    color:white;
 }
 
 /* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the button. */
