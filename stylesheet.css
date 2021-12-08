@@ -69,7 +69,6 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     bottom: 4%;
     left: 40%;
     opacity: .8;
-    transform: scale(1.1);
 }
 
 .button2 {
@@ -82,57 +81,74 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 }
 
 .button3 {
-    background-image: url(rooms/clipart-bear-teddy-bear-3-transparent.png);
     display: none;
-     width: 6%;
+    width: 8%;
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 68%;
+    left: 70%;
 }
 
 .button4 {
-    background-image: url(rooms/clothingonfloor.png);
     display: none;
+    width: 17%;
+    position: absolute;
+    top: 72%;
+    left: 78%;
 }
 
 .button5 {
+    background-image: url(rooms/hairbrush.png);
     display: none;
-    width: 4%;
-    position: absolute;
-    bottom: 4%;
-    left: 40%;
-    opacity: .8;
-    transform: scale(1.1);
 }
 
 .button6 {
-    background-image: url(rooms/knife.png);
     display: none;
+    width: 11%;
+    position: absolute;
+    top: 80%;
+    left: 55%;
 }
 
 .button7 {
-    background-image: url(rooms/notes.png);
     display: none;
+    width: 3%;
+    position: absolute;
+    top: 90%;
+    left: 68%;
+    opacity: .8;
 }
 
 .button8 {
-    background-image: url(rooms/suitcase.png);
     display: none;
+    width: 8%;
+    position: absolute;
+    top: 70%;
+    left: 40%;
 }
 
 .button9 {
-    background-image: url();
     display: none;
+    width: 8%;
+    position: absolute;
+    top: 63%;
+    left: 25%;
+    opacity:.8;
 }
 
 .button10 {
-    background-image: url();
     display: none;
+    width: 15%;
+    position: absolute;
+    top: 70%;
+    left: 80%;
 }
 
 .button11 {
-    background-image: url();
     display: none;
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
 }
 
 body {
