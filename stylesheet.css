@@ -193,6 +193,7 @@ body {
     height: auto;
     width: 100%;
     border-style: solid;
+    border-color: #111820;
 }
 
 #current_room {
