@@ -44,6 +44,7 @@ $(document).ready(function () {
     $('#k').toggle();
     $('#dr').toggle();
     $('#br').toggle();
+    $(".button3").toggle();
     return false;
   });
 
