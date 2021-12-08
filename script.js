@@ -129,6 +129,7 @@ $(document).ready(function () {
     $('#k').toggle();
     $('#dr').toggle();
     $('#lr').toggle();
+    $(".button5").toggle();
     $(".button11").toggle();
     return false;
   });
