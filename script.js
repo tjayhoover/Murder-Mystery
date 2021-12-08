@@ -78,6 +78,7 @@ $(document).ready(function () {
     $('#k').toggle();
     $('#dr').toggle();
     $('#lr').toggle();
+     $(".button5").toggle();
     return false;
   });
 
