@@ -12,6 +12,18 @@ img {
     src: url(font/Amatic.ttf);
 }
 
+.guess {
+        font-family: Amatic;
+        font-size: 30px;
+        color:white;
+        padding:10px;
+        text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     text-align: center;
     font-family: Amatic;
