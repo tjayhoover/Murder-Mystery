@@ -202,6 +202,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 69.3%;
 } 
 
+.polish {
+    display: none;
+    width: 3.5%;
+    position: absolute;
+    top: 61.3%;
+    left: 28%;
+}
+
 body {
     margin: 20px;
     background-color: #272f38;
