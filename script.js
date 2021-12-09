@@ -25,6 +25,7 @@ $(document).ready(function () {
     $('#br').toggle();
     $(".bloodstain1").toggle();
     $(".flowerpot").toggle();
+    $(".bloodstain3").toggle();
     return false;
   });
 
