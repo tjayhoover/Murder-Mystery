@@ -53,6 +53,7 @@ $(document).ready(function () {
     $('#br').toggle();
     $(".boots").toggle();
     $(".teddybear").toggle();
+    $(".polish").toggle();
     return false;
   });
 
