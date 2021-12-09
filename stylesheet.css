@@ -110,11 +110,10 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 
 .hairbrush {
     display: none;
-    width: 4%;
+    width: 6.8%;
     position: absolute;
-    bottom: 56.5%;
-    left: 39.5%;
-    opacity: .8;
+    top: 36.4%;
+    left: 26.5%;
     transform: rotate(-20deg);
 }
 
