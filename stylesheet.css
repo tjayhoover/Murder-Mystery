@@ -184,6 +184,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 36%;
     opacity: .8;
 }
+
 .bloodstain3 {
     display: none;
     width: 4%;
@@ -192,6 +193,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 35%;
     opacity: .8;
 }
+
+.clock {
+    display: none;
+    width: 6%;
+    position: absolute;
+    top: 22%;
+    left: 69.3%;
+} 
 
 body {
     margin: 20px;
