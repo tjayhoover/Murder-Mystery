@@ -39,6 +39,7 @@ $(document).ready(function () {
     $('#br').toggle();
     $(".suitcase").toggle();
     $(".clothingonfloor").toggle();
+    $(".clock").toggle();
     return false;
   });
 
