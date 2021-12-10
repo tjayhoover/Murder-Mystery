@@ -12,6 +12,7 @@ $(document).ready(function () {
     $('#dr').toggle();
     $('#br').toggle();
     $(".notes").toggle();
+     $(".briefcase").toggle();
     return false;
   });
 
