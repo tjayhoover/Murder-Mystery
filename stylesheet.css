@@ -225,6 +225,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     left: 27%;
 }
 
+.bat {
+    display: none;
+    width: 11%;
+    position: absolute;
+    top: 49%;
+    left: 3%;
+}
+
 body {
     margin: 20px;
     background-color: #272f38;
