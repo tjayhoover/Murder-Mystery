@@ -68,6 +68,7 @@ $(document).ready(function () {
     $('#br').toggle();
     $(".knife").toggle();
     $(".bloodstain2").toggle();
+    $(".fork").toggle();
     return false;
   });
 
