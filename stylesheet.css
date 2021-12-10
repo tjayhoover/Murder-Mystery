@@ -217,6 +217,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     opacity: .8;
 }
 
+.fork {
+    display: none;
+    width: 6.8%;
+    position: absolute;
+    top: 57%;
+    left: 27%;
+}
+
 body {
     margin: 20px;
     background-color: #272f38;
