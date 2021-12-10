@@ -208,6 +208,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     top: 61.3%;
     left: 28%;
 }
+.briefcase{
+    display: none;
+    width: 10%;
+    position: absolute;
+    bottom: 6.5%;
+    left: 27%;
+    opacity: .8;
+}
 
 body {
     margin: 20px;
