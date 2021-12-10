@@ -81,6 +81,7 @@ $(document).ready(function () {
     $('#lr').toggle();
     $('#br').toggle();
     $(".footprints").toggle();
+    $(".bat").toggle();
     return false;
   });
 
