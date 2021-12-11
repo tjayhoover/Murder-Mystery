@@ -1,11 +1,14 @@
 $(document).ready(function () {
 
-  var count = 9;
+  // This counter keeps track of the number of clues.
+  var count = 0;
+  // This is the message that displays when the user tries to find more clues after already having 10.
   var found10 = "You have found at least ten clues. You must now guess the name of the killer!";
 
-  // These functions expand the rooms when you click on them
-  // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
-
+  // The functions below expand the rooms when you click on them.
+  // They also display the clues, so the user can find them.
+  // If the number of clues reaches 10, the user will no longer be able to
+  // find any clues or enter any other rooms.
   $('#office').click(function () {
     if (count < 10 || (count >= 10 && $('#o').attr('class') == "cur")) {
       $('#o').toggleClass('cur');
@@ -125,8 +128,8 @@ $(document).ready(function () {
   });
 
 
-  // When you click a clue, a message pops up. Also, the first time they click on a specific clue, the counter is incremented by 1.
-
+  // The functions below allow the user to click a clue, which makes a message pop up.
+  // Also, the first time they click on a specific clue, the counter is incremented by 1.
   let bool1 = false;
   $('.briefcase').click(function () {
     if (count < 10) {
@@ -137,6 +140,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool2 = false;
   $('.clock').click(function () {
     if (count < 10) {
@@ -147,6 +151,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool3 = false;
   $('.clothingonfloor').click(function () {
     if (count < 10) {
@@ -157,6 +162,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool4 = false;
   $('.bat').click(function () {
     if (count < 10) {
@@ -167,6 +173,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool5 = false;
   $('.footprints').click(function () {
     if (count < 10) {
@@ -177,6 +184,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool6 = false;
   $('.notes').click(function () {
     if (count < 10) {
@@ -187,6 +195,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool7 = false;
   $('.bloodstain2').click(function () {
     if (count < 10) {
@@ -197,6 +206,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool8 = false;
   $('.fork').click(function () {
     if (count < 10) {
@@ -207,6 +217,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool9 = false;
   $('.hand').click(function () {
     if (count < 10) {
@@ -217,6 +228,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool10 = false;
   $('.splatter').click(function () {
     if (count < 10) {
@@ -227,6 +239,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool11 = false;
   $('.knife').click(function () {
     if (count < 10) {
@@ -237,6 +250,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool12 = false;
   $('.hairbrush').click(function () {
     if (count < 10) {
@@ -247,6 +261,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool13 = false;
   $('.bloodstain1').click(function () {
     if (count < 10) {
@@ -257,6 +272,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool14 = false;
   $('.flowerpot').click(function () {
     if (count < 10) {
@@ -267,6 +283,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool15 = false;
   $('.bloodstain3').click(function () {
     if (count < 10) {
@@ -277,6 +294,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool16 = false;
   $('.boots').click(function () {
     if (count < 10) {
@@ -287,6 +305,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool17 = false;
   $('.teddybear').click(function () {
     if (count < 10) {
@@ -297,6 +316,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool18 = false;
   $('.polish').click(function () {
     if (count < 10) {
@@ -307,6 +327,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool19 = false;
   $('.suitcase').click(function () {
     if (count < 10) {
@@ -317,6 +338,7 @@ $(document).ready(function () {
       }
     } else alert(found10);
   })
+
   let bool20 = false;
   $('.timenote').click(function () {
     if (count < 10) {
@@ -328,11 +350,9 @@ $(document).ready(function () {
     } else alert(found10);
   })
 
-  // These functions allow the user to flip through the story
-  // Breana coded this up, I (Tyler) made a few slight changes to fix the issue with being able to go
-  // from the first to the last without going through the whole story
+  // The functions below allow the user to flip through the story.
   $(".one").click(function () {
-    $(this).hide();
+    $(this).hide(); // this allows the next thing to come up and the other to go away
     $(".two").show();
   });
 
@@ -347,7 +367,7 @@ $(document).ready(function () {
   });
 
   $("#cletus").click(function () {
-    $(this).hide(); /* this allows the next thing to come up and the other to go away */
+    $(this).hide(); 
     $("#betty").show();
   });
 

@@ -7,10 +7,6 @@ img {
     display: block;
 }
 
-#floorplan {
-    padding-bottom: 20px;
-}
-
 @font-face {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
