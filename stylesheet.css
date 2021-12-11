@@ -238,10 +238,10 @@ where the clue is in the room. I used the opacity to make the blood just a littl
 }
 .timenote{
     display: none;
-    width: 12.5%;
+    width: 7%;
     position: absolute;
-    bottom: 69%;
-    left: 80%;
+    bottom: 74%;
+    left: 74.7%;
     opacity: .8;
 }
 
