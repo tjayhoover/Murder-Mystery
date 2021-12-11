@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+  var count = 0;
   // These functions expand the rooms when you click on them
   // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
     
@@ -99,11 +100,82 @@ $(document).ready(function () {
     return false;
   });
 
-
   $('.briefcase').click(function () {
-    alert("You have found a briefcase!")
+    alert("You have found a briefcase!");
+    count++;
   })
-
+  $('.clock').click(function () {
+    alert("You have found a clock!");
+    count++;
+  })
+  $('.clothingonfloor').click(function () {
+    alert("You have found clothing on the floor!");
+    count++;
+  })
+  $('.bat').click(function () {
+    alert("You have found a bat!");
+    count++;
+  })
+  $('.footprints').click(function () {
+    alert("You have found footprints!");
+    count++;
+  })
+  $('.notes').click(function () {
+    alert("You have found notes!");
+    count++;
+  })
+  $('.bloodstain2').click(function () {
+    alert("You have found a bloodstain!");
+    count++;
+  })
+  $('.fork').click(function () {
+    alert("You have found a fork!");
+    count++;
+  })
+  $('.hand').click(function () {
+    alert("You have found a hand!");
+    count++;
+  })
+  $('.splatter').click(function () {
+    alert("You have found a splatter!");
+    count++;
+  })
+  $('.knife').click(function () {
+    alert("You have found a knife!");
+    count++;
+  })
+  $('.hairbrush').click(function () {
+    alert("You have found a hairbrush!");
+    count++;
+  })
+  $('.bloodstain1').click(function () {
+    alert("You have found a bloodtain!");
+    count++;
+  })
+  $('.flowerpot').click(function () {
+    alert("You have found a flowerpot!");
+    count++;
+  })
+  $('.bloodstain3').click(function () {
+    alert("You have found a bloodstain!");
+    count++;
+  })
+  $('.boots').click(function () {
+    alert("You have found a boots!");
+    count++;
+  })
+  $('.teddybear').click(function () {
+    alert("You have found a teddy bear!");
+    count++;
+  })
+  $('.polish').click(function () {
+    alert("You have found polish!");
+    count++;
+  })
+  $('.suitcase').click(function () {
+    alert("You have found a suitcase!" + count);
+    count++;
+  })
 
   // These functions allow the user to flip through the story
   // Breana coded this up, I (Tyler) made a few slight changes to fix the issue with being able to go
@@ -152,12 +224,17 @@ $(document).ready(function () {
     $(this).hide();
     $(".three").show();
   });
-  
-   $("input[name=wrongguess]").click(function () {
+
+  $("input[name=wrongguess]").click(function () {
       window.open("storyend1.html");
   });
+
   $("#rightguess").click(function () {
       window.open("storyend2.html");
   });
+
+  if (count > 10) {
+    $("#guess_time").show();
+  }
 
 }); //end doc.ready

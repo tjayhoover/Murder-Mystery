@@ -308,19 +308,6 @@ body {
     border-color: #111820;
 }
 
-#current_room {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: none;
-    background-color: green;
-    width: 800px;
-    height: 500px;
-}
-
 .room_name {
     padding-bottom: 1px;
 }
@@ -334,4 +321,12 @@ body {
     width: 80%;
     height: auto;
     z-index: 100;
+}
+
+#guess_time {
+    position: absolute;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    display: none;
 }
