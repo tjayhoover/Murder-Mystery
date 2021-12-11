@@ -17,11 +17,11 @@ img {
 }
 
 .guess {
-        font-family: Amatic;
-        font-size: 30px;
-        color:white;
-        padding:10px;
-        text-decoration: none;
+    font-family: Amatic;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
 }
 
 a:hover {
@@ -32,21 +32,21 @@ h1 {
     text-align: center;
     font-family: Amatic;
     font-size: 35px;
-    color:white;
+    color: white;
 }
 
 h2 {
     text-align: center;
     font-family: Amatic;
     font-size: 25px;
-    color:white;
+    color: white;
 }
 
 h5 {
     font-family: Amatic;
     font-size: 25px;
     font-weight: bolder;
-    color:white;
+    color: white;
 }
 
 /* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the button. */
@@ -152,7 +152,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     position: absolute;
     top: 63%;
     left: 25%;
-    opacity:.8;
+    opacity: .8;
 }
 
 .footprints {
@@ -203,7 +203,7 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     position: absolute;
     top: 22%;
     left: 69.3%;
-} 
+}
 
 .polish {
     display: none;
@@ -212,7 +212,8 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     top: 61.3%;
     left: 28%;
 }
-.briefcase{
+
+.briefcase {
     display: none;
     width: 10%;
     position: absolute;
@@ -236,7 +237,8 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     top: 47%;
     left: 3%;
 }
-.timenote{
+
+.timenote {
     display: none;
     width: 7%;
     position: absolute;
@@ -296,7 +298,7 @@ body {
 }
 
 .bathroom {
-    top: 670px;;
+    top: 670px;
     right: 15%;
     position: absolute;
     text-align: center;
