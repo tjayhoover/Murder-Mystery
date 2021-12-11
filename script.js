@@ -147,5 +147,12 @@ $(document).ready(function () {
     $(this).hide();
     $(".three").show();
   });
+  
+   $("input[name=wrongguess]").click(function () {
+      window.open("storyend1.html");
+  });
+  $("#rightguess").click(function () {
+      window.open("storyend2.html");
+  });
 
 }); //end doc.ready
