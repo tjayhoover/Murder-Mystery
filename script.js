@@ -99,6 +99,7 @@ $(document).ready(function () {
       $('#br').toggle();
       $(".footprints").toggle();
       $(".bat").toggle();
+      $(".timenote").toggle();
     } else {
       alert("You have found at least ten clues. You must now guess who the killer was!");
     }
