@@ -7,6 +7,10 @@ img {
     display: block;
 }
 
+#floorplan {
+    padding-bottom: 20px;
+}
+
 @font-face {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
@@ -239,7 +243,7 @@ body {
 }
 
 .master_bedroom {
-    top: 15%;
+    top: 200px;
     left: 10%;
     position: absolute;
     text-align: center;
@@ -248,7 +252,7 @@ body {
 }
 
 .dining_room {
-    top: 15%;
+    top: 200px;
     right: 10%;
     position: absolute;
     text-align: center;
@@ -257,8 +261,8 @@ body {
 }
 
 .office {
-    top: 50%;
-    left: 20%;
+    top: 400px;
+    left: 15%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -266,8 +270,8 @@ body {
 }
 
 .living_room {
-    top: 50%;
-    right: 20%;
+    top: 440px;
+    right: 15%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -275,7 +279,7 @@ body {
 }
 
 .kitchen {
-    top: 85%;
+    top: 630px;
     left: 10%;
     position: absolute;
     text-align: center;
@@ -284,7 +288,7 @@ body {
 }
 
 .bathroom {
-    top: 85%;
+    top: 630px;;
     right: 10%;
     position: absolute;
     text-align: center;
@@ -293,7 +297,7 @@ body {
 }
 
 .guest_room {
-    top: 85%;
+    top: 630px;
     right: 37.5%;
     position: absolute;
     text-align: center;
