@@ -1,12 +1,14 @@
 $(document).ready(function () {
 
   var count = 9;
+
   // These functions expand the rooms when you click on them
   // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
 
   $('#office').click(function () {
-    if (count < 10 || $('#o').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#o').attr('class') == "cur")) {
       $('#o').toggleClass('cur');
+      $('#dr').toggleClass('office');
       $('#lr').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
@@ -22,8 +24,9 @@ $(document).ready(function () {
   });
 
   $('#living_room').click(function () {
-    if (count < 10 || $('#lr').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#lr').attr('class') == 'cur')) {
       $('#lr').toggleClass('cur');
+      $('#lr').toggleClass('living_room');
       $('#o').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
@@ -36,12 +39,16 @@ $(document).ready(function () {
       if (count >= 10) {
         alert("You have found at least ten clues. You must now guess the name of the killer!");
       }
+      
+    }else {
+      alert($('#lr').attr('class'));
     }
   });
 
   $('#master_bedroom').click(function () {
-    if (count < 10 || $('#mb').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#mb').attr('class') == "cur")) {
       $('#mb').toggleClass('cur');
+      $('#mb').toggleClass('master_bedroom');
       $('#o').toggle();
       $('#lr').toggle();
       $('#gr').toggle();
@@ -58,8 +65,9 @@ $(document).ready(function () {
   });
 
   $('#guest_room').click(function () {
-    if (count < 10 || $('#gr').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#gr').attr('class') == "cur")) {
       $('#gr').toggleClass('cur');
+      $('#gr').toggleClass('guest_room');
       $('#o').toggle();
       $('#mb').toggle();
       $('#lr').toggle();
@@ -76,8 +84,9 @@ $(document).ready(function () {
   });
 
   $('#kitchen').click(function () {
-    if (count < 10 || $('#k').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#k').attr('class') == "cur")) {
       $('#k').toggleClass('cur');
+      $('#k').toggleClass('kitchen');
       $('#o').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
@@ -94,7 +103,7 @@ $(document).ready(function () {
   });
 
   $('#dining_room').click(function () {
-    if (count < 10 || $('#dr').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#dr').attr('class') == "cur")) {
       $('#dr').toggleClass('cur');
       $('#dr').toggleClass('dining_room');
       $('#o').toggle();
@@ -109,12 +118,15 @@ $(document).ready(function () {
       if (count >= 10) {
         alert("You have found at least ten clues. You must now guess the name of the killer!");
       }
+    } else {
+      alert($('#dr').attr('class'));
     }
   });
 
   $('#bathroom').click(function () {
-    if (count < 10 || $('#br').attr('class') == "cur") {
+    if (count < 10 || (count >= 10 && $('#br').attr('class') == "cur")) {
       $('#br').toggleClass('cur');
+      $('#br').toggleClass('bathroom');
       $('#o').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
