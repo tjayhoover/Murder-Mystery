@@ -232,6 +232,14 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     top: 47%;
     left: 3%;
 }
+.timenote{
+    display: none;
+    width: 14%;
+    position: absolute;
+    bottom: 69%;
+    left: 80%;
+    opacity: .8;
+}
 
 body {
     margin: 20px;
