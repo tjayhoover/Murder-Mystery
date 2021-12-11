@@ -325,6 +325,8 @@ body {
 }
 
 .cur {
+    position: absolute;
+    text-align: center;
     top: 30%;
     left: 0;
     right: 0;

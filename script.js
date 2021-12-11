@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-  var count = 0;
+  var count = 9;
   // These functions expand the rooms when you click on them
   // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
 
   $('#office').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#o').attr('class') == "cur") {
       $('#o').toggleClass('cur');
       $('#lr').toggle();
       $('#mb').toggle();
@@ -15,13 +15,14 @@ $(document).ready(function () {
       $('#br').toggle();
       $(".notes").toggle();
       $(".briefcase").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#living_room').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#lr').attr('class') == "cur") {
       $('#lr').toggleClass('cur');
       $('#o').toggle();
       $('#mb').toggle();
@@ -32,13 +33,14 @@ $(document).ready(function () {
       $(".bloodstain1").toggle();
       $(".flowerpot").toggle();
       $(".bloodstain3").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#master_bedroom').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#mb').attr('class') == "cur") {
       $('#mb').toggleClass('cur');
       $('#o').toggle();
       $('#lr').toggle();
@@ -49,13 +51,14 @@ $(document).ready(function () {
       $(".suitcase").toggle();
       $(".clothingonfloor").toggle();
       $(".clock").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#guest_room').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#gr').attr('class') == "cur") {
       $('#gr').toggleClass('cur');
       $('#o').toggle();
       $('#mb').toggle();
@@ -66,13 +69,14 @@ $(document).ready(function () {
       $(".boots").toggle();
       $(".teddybear").toggle();
       $(".polish").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#kitchen').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#k').attr('class') == "cur") {
       $('#k').toggleClass('cur');
       $('#o').toggle();
       $('#mb').toggle();
@@ -83,14 +87,16 @@ $(document).ready(function () {
       $(".knife").toggle();
       $(".bloodstain2").toggle();
       $(".fork").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#dining_room').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#dr').attr('class') == "cur") {
       $('#dr').toggleClass('cur');
+      $('#dr').toggleClass('dining_room');
       $('#o').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
@@ -100,13 +106,14 @@ $(document).ready(function () {
       $(".footprints").toggle();
       $(".bat").toggle();
       $(".timenote").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
   $('#bathroom').click(function () {
-    if (count < 10) {
+    if (count < 10 || $('#br').attr('class') == "cur") {
       $('#br').toggleClass('cur');
       $('#o').toggle();
       $('#mb').toggle();
@@ -117,8 +124,9 @@ $(document).ready(function () {
       $(".hairbrush").toggle();
       $(".hand").toggle();
       $(".splatter").toggle();
-    } else {
-      alert("You have found at least ten clues. You must now guess who the killer was!");
+      if (count >= 10) {
+        alert("You have found at least ten clues. You must now guess the name of the killer!");
+      }
     }
   });
 
