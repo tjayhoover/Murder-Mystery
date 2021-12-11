@@ -3,25 +3,19 @@
     margin: 0;
 }
 
-img {
-    display: block;
-}
-
 @font-face {
     font-family: Amatic;
     src: url(font/Amatic.ttf);
 }
 
-.guess {
-    font-family: Amatic;
-    font-size: 30px;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
+/* Below is the CSS for a few HTML tags */
+img {
+    display: block;
 }
 
-a:hover {
-    text-decoration: underline 1px;
+body {
+    margin: 20px;
+    background-color: #272f38;
 }
 
 h1 {
@@ -45,6 +39,20 @@ h5 {
     color: white;
 }
 
+/* This class styles the guess options. */
+.guess {
+    font-family: Amatic;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* When you hover over a link, it gives it an underline. */
+a:hover {
+    text-decoration: underline 1px;
+}
+
 /* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the button. */
 .clue_pic {
     width: 100%;
@@ -65,15 +73,11 @@ please use the specific class for that button, i.e. button1 or button2. DO NOT C
     display: none;
 }
 
-/* When implementing the clues, please remember that the JavaScript needs to be changed as well so that the clues only show up once the user
-enters the room. If you have any questions about which JavaScript needs to be changed, ask Tyler or Breana.
-Also, remember that every image needs a class="clue_pic". This sets the width to 100% of the container, which is necessary. */
-
-/* Button1 and button2, etc., are classes that describe a specific button. A distinct class is required for every single clue. 
+/* Below are the classes that describe each specific button. A distinct class is required for every single clue. 
 These classes set display to none so the clue doesn't show up before the user enters the room.
 They also set the width of the button, which sets how big the picture of the clue is.
 The width of these classes will determine the width of the picture. Also, the postion is absolute, and the percentages represent 
-where the clue is in the room. I used the opacity to make the blood just a little less bright. */
+where the clue is in the room. */
 .bloodstain1 {
     display: none;
     width: 4%;
@@ -243,11 +247,8 @@ where the clue is in the room. I used the opacity to make the blood just a littl
     opacity: .8;
 }
 
-body {
-    margin: 20px;
-    background-color: #272f38;
-}
-
+/* The classes below are the room classes. They set where in the browser window the rooms appear.
+   When the user enters a room, the room class changes to ".cur" to make the room larger. */
 .master_bedroom {
     top: 200px;
     left: 15%;
@@ -311,18 +312,9 @@ body {
     width: 20%;
 }
 
-.room_img {
-    height: auto;
-    width: 100%;
-    border-style: solid;
-    border-color: #111820;
-}
-
-.room_name {
-    padding-bottom: 1px;
-}
-
-.cur {
+/* When the user enters a room, the class of that room gets changed to this class.
+   It makes the room large and center in the browser window. */
+   .cur {
     position: absolute;
     text-align: center;
     top: 30%;
@@ -332,15 +324,17 @@ body {
     margin-right: auto;
     width: 80%;
     height: auto;
-    z-index: 100;
 }
 
-#guess_time {
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 5%;
-    left: 10%;
-    background-color: red;
-    display: none;
+/* This class gives each room image a border. */
+.room_img {
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: #111820;
+}
+
+/* This class gives the room name a little space from the room picture. */
+.room_name {
+    padding-bottom: 1px;
 }
