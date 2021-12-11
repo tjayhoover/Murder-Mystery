@@ -100,6 +100,11 @@ $(document).ready(function () {
   });
 
 
+  $('.briefcase').click(function () {
+    alert("You have found a briefcase!")
+  })
+
+
   // These functions allow the user to flip through the story
   // Breana coded this up, I (Tyler) made a few slight changes to fix the issue with being able to go
   // from the first to the last without going through the whole story
