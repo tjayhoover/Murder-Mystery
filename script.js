@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
   var count = 9;
+  var found10 = "You have found at least ten clues. You must now guess the name of the killer!";
 
   // These functions expand the rooms when you click on them
   // If you are adding clues, this is where you .show() the button. Make sure it is in the right room.
@@ -17,10 +18,8 @@ $(document).ready(function () {
       $('#br').toggle();
       $(".notes").toggle();
       $(".briefcase").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#living_room').click(function () {
@@ -36,13 +35,8 @@ $(document).ready(function () {
       $(".bloodstain1").toggle();
       $(".flowerpot").toggle();
       $(".bloodstain3").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-      
-    }else {
-      alert($('#lr').attr('class'));
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#master_bedroom').click(function () {
@@ -58,10 +52,8 @@ $(document).ready(function () {
       $(".suitcase").toggle();
       $(".clothingonfloor").toggle();
       $(".clock").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#guest_room').click(function () {
@@ -77,10 +69,8 @@ $(document).ready(function () {
       $(".boots").toggle();
       $(".teddybear").toggle();
       $(".polish").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#kitchen').click(function () {
@@ -96,10 +86,8 @@ $(document).ready(function () {
       $(".knife").toggle();
       $(".bloodstain2").toggle();
       $(".fork").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#dining_room').click(function () {
@@ -115,12 +103,8 @@ $(document).ready(function () {
       $(".footprints").toggle();
       $(".bat").toggle();
       $(".timenote").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    } else {
-      alert($('#dr').attr('class'));
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
   $('#bathroom').click(function () {
@@ -136,10 +120,8 @@ $(document).ready(function () {
       $(".hairbrush").toggle();
       $(".hand").toggle();
       $(".splatter").toggle();
-      if (count >= 10) {
-        alert("You have found at least ten clues. You must now guess the name of the killer!");
-      }
-    }
+      if (count >= 10) alert(found10);
+    } else alert(found10);
   });
 
 
