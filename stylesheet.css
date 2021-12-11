@@ -252,16 +252,16 @@ body {
 
 .master_bedroom {
     top: 200px;
-    left: 10%;
+    left: 15%;
     position: absolute;
     text-align: center;
     height: auto;
-    width: 25%;
+    width: 30%;
 }
 
 .dining_room {
     top: 200px;
-    right: 10%;
+    right: 15%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -269,8 +269,8 @@ body {
 }
 
 .office {
-    top: 400px;
-    left: 15%;
+    top: 430px;
+    left: 7%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -279,7 +279,7 @@ body {
 
 .living_room {
     top: 440px;
-    right: 15%;
+    right: 7%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -287,8 +287,8 @@ body {
 }
 
 .kitchen {
-    top: 630px;
-    left: 10%;
+    top: 670px;
+    left: 15%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -296,8 +296,8 @@ body {
 }
 
 .bathroom {
-    top: 630px;;
-    right: 10%;
+    top: 670px;;
+    right: 15%;
     position: absolute;
     text-align: center;
     height: auto;
@@ -305,12 +305,12 @@ body {
 }
 
 .guest_room {
-    top: 630px;
-    right: 37.5%;
+    top: 440px;
+    right: 40%;
     position: absolute;
     text-align: center;
     height: auto;
-    width: 25%;
+    width: 20%;
 }
 
 .room_img {
