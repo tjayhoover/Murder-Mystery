@@ -41,6 +41,7 @@ h5 {
 
 /* This class styles the guess options. */
 .guess {
+    float: left;
     font-family: Amatic;
     font-size: 30px;
     color: white;
@@ -48,8 +49,18 @@ h5 {
     text-decoration: none;
 }
 
+#clue_count{
+    float: right;
+    font-family: Amatic;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
 /* When you hover over a link, it gives it an underline. */
-a:hover {
+.guess:hover {
     text-decoration: underline 1px;
 }
 
@@ -348,4 +359,30 @@ where the clue is in the room. */
     margin-top: -25px;
     padding-top: 0;
     font-size: 37pt;
+}
+
+#floorplan_body {
+    height: 1000px;
+}
+
+/* Here are media queries to deal with really big screen sizes. */
+@media only screen and (min-width: 1400px) {
+    .office {
+        top: 550px;
+    }
+    .guest_room {
+        top: 550px;
+    }
+    .living_room {
+        top: 550px;
+    }
+    .bathroom {
+        top: 900px;
+    }
+    .kitchen {
+        top: 900px;
+    }
+    #floorplan_body {
+        height: 1300px;
+    }
 }

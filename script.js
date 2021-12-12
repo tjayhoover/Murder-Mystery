@@ -2,8 +2,12 @@ $(document).ready(function () {
 
   // This counter keeps track of the number of clues.
   var count = 0;
+
+  // This displays the number of clues to the user. Each time the user clicks on a new clue, this number is updated.
+  document.getElementById("count").innerHTML = count;
+
   // This is the message that displays when the user tries to find more clues after already having 10.
-  var found10 = "You have found at least ten clues. You must now guess the name of the killer!";
+  var found10 = "You have found ten clues. You must now guess the name of the killer!";
 
   // The functions below expand the rooms when you click on them.
   // They also display the clues, so the user can find them.
@@ -12,7 +16,7 @@ $(document).ready(function () {
   $('#office').click(function () {
     if (count < 10 || (count >= 10 && $('#o').attr('class') == "cur")) {
       $('#o').toggleClass('cur');
-      $('#dr').toggleClass('office');
+      $('#o').toggleClass('office');
       $('#lr').toggle();
       $('#mb').toggle();
       $('#gr').toggle();
@@ -137,6 +141,7 @@ $(document).ready(function () {
       if (bool1 == false) {
         count++;
         bool1 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -148,6 +153,7 @@ $(document).ready(function () {
       if (bool2 == false) {
         count++;
         bool2 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -159,6 +165,7 @@ $(document).ready(function () {
       if (bool3 == false) {
         count++;
         bool3 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -170,6 +177,7 @@ $(document).ready(function () {
       if (bool4 == false) {
         count++;
         bool4 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -181,6 +189,7 @@ $(document).ready(function () {
       if (bool5 == false) {
         count++;
         bool5 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -192,6 +201,7 @@ $(document).ready(function () {
       if (bool6 == false) {
         count++;
         bool6 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -203,6 +213,7 @@ $(document).ready(function () {
       if (bool7 == false) {
         count++;
         bool7 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -214,6 +225,7 @@ $(document).ready(function () {
       if (bool8 == false) {
         count++;
         bool8 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -225,6 +237,7 @@ $(document).ready(function () {
       if (bool9 == false) {
         count++;
         bool9 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -236,6 +249,7 @@ $(document).ready(function () {
       if (bool10 == false) {
         count++;
         bool10 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -247,6 +261,7 @@ $(document).ready(function () {
       if (bool11 == false) {
         count++;
         bool11 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -258,6 +273,7 @@ $(document).ready(function () {
       if (bool12 == false) {
         count++;
         bool12 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -269,6 +285,7 @@ $(document).ready(function () {
       if (bool13 == false) {
         count++;
         bool13 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -280,6 +297,7 @@ $(document).ready(function () {
       if (bool14 == false) {
         count++;
         bool14 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -291,6 +309,7 @@ $(document).ready(function () {
       if (bool15 == false) {
         count++;
         bool15 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -302,6 +321,7 @@ $(document).ready(function () {
       if (bool16 == false) {
         count++;
         bool16 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -313,6 +333,7 @@ $(document).ready(function () {
       if (bool17 == false) {
         count++;
         bool17 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -324,6 +345,7 @@ $(document).ready(function () {
       if (bool18 == false) {
         count++;
         bool18 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -335,6 +357,7 @@ $(document).ready(function () {
       if (bool19 == false) {
         count++;
         bool19 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -346,6 +369,7 @@ $(document).ready(function () {
       if (bool20 == false) {
         count++;
         bool20 = true;
+        document.getElementById("count").innerHTML = count;
       }
     } else alert(found10);
   })
@@ -403,8 +427,11 @@ $(document).ready(function () {
   $("#rightguess").click(function () {
     window.open("storyend2.html");
   });
-  if (parseInt(count) > 10) {
-    $("#guess_time").show();
-  }
+  
+  $(".guess").click(function() {
+    if (count >= 10) {
+      window.open("guess.html");
+    } else alert("You must find ten clues before you guess who the killer is.");
+  })
 
 }); //end doc.ready
