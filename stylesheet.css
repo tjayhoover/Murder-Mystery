@@ -13,6 +13,18 @@ img {
     display: block;
 }
 
+a {
+    font-family: Amatic;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline 1px;
+}
+
 body {
     margin: 20px;
     background-color: #272f38;

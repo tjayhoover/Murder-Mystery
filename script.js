@@ -420,18 +420,12 @@ $(document).ready(function () {
     $(".three").show();
   });
 
-  $("div[class=guess]").click(function () {
-    window.open("storyend1.html");
-  });
+  // $("div[class=guess]").click(function () {
+  //   window.open("storyend1.html");
+  // });
 
-  $(".rightguess").click(function () {
-    window.open("storyend2.html");
-  });
-
-  $("#make_guess").click(function () {
-    if (count >= 10) {
-      window.open("guess.html");
-    } else alert("You must find ten clues before you guess who the killer is.");
-  })
+  // $(".rightguess").click(function () {
+  //   window.open("storyend2.html");
+  // });
 
 }); //end doc.ready
