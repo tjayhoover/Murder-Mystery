@@ -396,7 +396,7 @@ $(document).ready(function () {
     $(".three").show();
   });
 
-  $("input[name=wrongguess]").click(function () {
+  $("div[name=wrongguess]").click(function () {
     window.open("storyend1.html");
   });
 
