@@ -12,64 +12,81 @@
         a {
             font-family: Amatic;
             font-size: 30px;
-            color: white;
-            padding: 10px;
+            color:white;
+            padding:10px;
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline 1px;
         }
-
         h1 {
-            font-size: 45px;
-            padding-bottom: 5px;
+            font-size:45px;
+            padding-bottom:5px;
         }
-
         h2 {
-            font-size: 35px;
-            padding-bottom: 1em;
+            font-size:35px;
+            padding-bottom:0.5em;
         }
-
         input {
-            margin-bottom: 1.5em;
+            margin-bottom:1.5em;
         }
-
         .names {
-            text-align: center;
+            margin-left:42%;
         }
-
-        #wrongguess,
-        #rightguess {
+        #wrongguess, #rightguess {
             font-family: Amatic;
             font-size: 35px;
-            margin: 8px;
-            color: white;
+            margin:8px;
+            color:white;
             background-color: transparent;
-            border: none;
+            border:none;
+        }
+        .guess {
             transition: transform .2s;
+            display: flex;
+            align-items: center;
+            margin-bottom:0.5em;
+        }
+        .guess:hover {
+            transform: scale(1.05);     
         }
 
-        #wrongguess:hover,
-        #rightguess:hover {
-            transform: scale(1.1);
-        }
     </style>
 </head>
-
 <body>
     <a href="floorplan.html">Back To Rooms</a>
     <h1>Based on the clues you've gathered, guess who killed John...</h1>
     <h2>Click a name to see if you caught the killer.</h2>
-    <form class="names">
-        <input type="button" id="wrongguess" name="wrongguess" value="Gwen D'Hottie"><br>
-        <input type="button" id="wrongguess" name="wrongguess" value="Cletus McYeetus"><br>
-        <input type="button" id="wrongguess" name="wrongguess" value="Betty Beans"><br>
-        <input type="button" id="wrongguess" name="wrongguess" value="Fred Farley"><br>
-        <input type="button" id="wrongguess" name="wrongguess" value="Bubba Bomb"><br>
-        <input type="button" id="wrongguess" name="wrongguess" value="Effie Sephi"><br>
-        <input type="button" id="rightguess" name="rightguess" value="You">
-    </form>
+        <form class="names">
+            <div class="guess">
+                <img src="characters/2.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Gwen D'Hottie">
+            </div>
+            <div class="guess">
+                <img src="characters/4.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Cletus McYeetus">
+            </div>
+            <div class="guess">
+                <img src="characters/6.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Betty Beans">
+            </div>
+            <div class="guess">
+                <img src="characters/3.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Fred Farley">
+            </div>
+            <div class="guess">
+                <img src="characters/7.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Bubba Bomb">
+            </div>
+            <div class="guess">
+                <img src="characters/5.png" width="9%">
+                <input type="button" id="wrongguess" name="wrongguess" value="Effie Sephi">
+            </div>
+            <div class="guess" style="margin-bottom: 2em;">
+                <img src="characters/1.png" width="9%">
+                <input type="button" id="rightguess" name="rightguess" value="You">
+            </div>
+        </form>
 </body>
 
 </html>
