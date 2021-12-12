@@ -64,14 +64,14 @@ h5 {
     text-decoration: underline 1px;
 }
 
-/* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the button. */
+/* For every clue, make sure the image has the class="clue_pic". This sets the width to 100% of the clue container. */
 .clue_pic {
     width: 100%;
 }
 
-/* Button is a parent class that describes a few things that are true about every button. To change individual buttons,
-please use the specific class for that button, i.e. button1 or button2. DO NOT CHANGE THIS CLASS.*/
-.button {
+/* Clue is a parent class that describes a few things that are true about every clue. To change individual clues,
+please use the specific class for that clue, i.e. boots or knife. DO NOT CHANGE THIS CLASS.*/
+.clue {
     border: none;
     transition: 1.5s;
     background-color: transparent;
@@ -79,14 +79,14 @@ please use the specific class for that button, i.e. button1 or button2. DO NOT C
 }
 
 /* This just makes the clue enlarge slightly when the mouse hovers over it */
-.button:hover {
+.clue:hover {
     transform: scale(1.1);
     display: none;
 }
 
-/* Below are the classes that describe each specific button. A distinct class is required for every single clue. 
+/* Below are the classes that describe each specific clue. A distinct class is required for every single clue. 
 These classes set display to none so the clue doesn't show up before the user enters the room.
-They also set the width of the button, which sets how big the picture of the clue is.
+They also set the width of the clue, which sets how big the picture of the clue is.
 The width of these classes will determine the width of the picture. Also, the postion is absolute, and the percentages represent 
 where the clue is in the room. */
 .bloodstain1 {
