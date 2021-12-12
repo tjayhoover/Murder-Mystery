@@ -47,6 +47,7 @@ h5 {
     color: white;
     padding: 10px;
     text-decoration: none;
+    width: 180px;
 }
 
 #clue_count {
@@ -56,6 +57,7 @@ h5 {
     color: white;
     padding: 10px;
     text-decoration: none;
+    width: 180px;
 }
 
 
@@ -356,7 +358,6 @@ where the clue is in the room. */
 }
 
 #floorplan_title {
-    margin-top: -25px;
     padding-top: 0;
     font-size: 37pt;
 }
