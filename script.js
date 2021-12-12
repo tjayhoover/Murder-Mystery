@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // This counter keeps track of the number of clues.
-  var count = 0;
+  var count = 10;
 
   // This displays the number of clues to the user. Each time the user clicks on a new clue, this number is updated.
   $("#count").html(count);
@@ -420,15 +420,15 @@ $(document).ready(function () {
     $(".three").show();
   });
 
-  $("div[name=wrongguess]").click(function () {
+  $("div[class=guess]").click(function () {
     window.open("storyend1.html");
   });
 
-  $("#rightguess").click(function () {
+  $(".rightguess").click(function () {
     window.open("storyend2.html");
   });
 
-  $(".guess").click(function () {
+  $("#make_guess").click(function () {
     if (count >= 10) {
       window.open("guess.html");
     } else alert("You must find ten clues before you guess who the killer is.");

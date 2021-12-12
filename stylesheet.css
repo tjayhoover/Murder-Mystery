@@ -39,15 +39,14 @@ h5 {
     color: white;
 }
 
-/* This class styles the guess options. */
-.guess {
+#make_guess {
     float: left;
     font-family: Amatic;
     font-size: 30px;
     color: white;
     padding: 10px;
     text-decoration: none;
-    width: 180px;
+    width: 185px;
 }
 
 #clue_count {
@@ -57,12 +56,13 @@ h5 {
     color: white;
     padding: 10px;
     text-decoration: none;
-    width: 180px;
+    width: 185px;
 }
 
 
 /* When you hover over a link, it gives it an underline. */
-.guess:hover {
+
+#make_guess:hover {
     text-decoration: underline 1px;
 }
 
