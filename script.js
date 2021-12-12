@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // This counter keeps track of the number of clues.
-  var count = 10;
+  var count = 0;
 
   // This displays the number of clues to the user. Each time the user clicks on a new clue, this number is updated.
   $("#count").html(count);
@@ -419,13 +419,5 @@ $(document).ready(function () {
     $(this).hide();
     $(".three").show();
   });
-
-  // $("div[class=guess]").click(function () {
-  //   window.open("storyend1.html");
-  // });
-
-  // $(".rightguess").click(function () {
-  //   window.open("storyend2.html");
-  // });
 
 }); //end doc.ready
