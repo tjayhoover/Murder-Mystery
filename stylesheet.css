@@ -337,4 +337,15 @@ where the clue is in the room. */
 /* This class gives the room name a little space from the room picture. */
 .room_name {
     padding-bottom: 1px;
+    transition-duration: 350ms;
+}
+
+.room_name:hover {
+    font-size: 20pt;
+}
+
+#floorplan_title {
+    margin-top: -25px;
+    padding-top: 0;
+    font-size: 37pt;
 }
