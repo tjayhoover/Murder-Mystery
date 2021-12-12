@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +8,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="script.js"></script>
     <style>
+        div {
+            margin:4%;
+            background-color: #111820;
+            text-align:center;
+        }
         a {
             font-family: Amatic;
             font-size: 45px;
-            color: white;
-            padding: 10px;
+            color:white;
+            padding:10px;
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline 1px;
         }
-
         button {
-            margin-top: 4em;
+            margin-top:4em;
             background-color: transparent;
-            border: none;
+            border:none;
+        }
+        img {
+            width:15%;
+        }
+        p {
+            font-size:40px;
+            margin:1%;
         }
     </style>
 </head>
-
 <body>
-    <p>It all comes back to you... You are the murderer.
-        On a lighter note, you're a great detective. GReat job figuring it out.<br>
-        <button type="submit" class><a href="index.html">Play Again</a></button>
-    </p>
+    <div>
+        <p style="padding-bottom: 0;">Your friends turn to look at you, and your missing memories all starts coming back to you... 
+            Just before you and your friends gathered together, you found out that your girlfriend, Gwen,
+            was sleeping with John. Your anger got the best of you, and when John went to the bathroom, it was 
+            the perfect time to strike. Unfortunately, you hit your head on the kichen counter on your way 
+            back from the bathroom and you lost all memory of the incident. Now that your plan has been foiled, 
+            your friends will turn you into the police...</p>
+        <img src="images/characters/arrest.png">
+        <p style="padding-top: 0;">You may be a terrible murderer, but at least you're a good detective.<br> 
+            Great job figuring it out.<br>
+        <button type="submit" class><a href="index.html">Play Again</a></button></p>
+    </div>
 </body>
-
 </html>
