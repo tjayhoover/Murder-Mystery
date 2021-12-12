@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // This counter keeps track of the number of clues.
-  var count = 0;
+  var count = 9;
 
   // This displays the number of clues to the user. Each time the user clicks on a new clue, this number is updated.
   document.getElementById("count").innerHTML = count;
