@@ -141,7 +141,8 @@ $(document).ready(function () {
       if (bool1 == false) {
         count++;
         bool1 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -152,7 +153,8 @@ $(document).ready(function () {
       if (bool2 == false) {
         count++;
         bool2 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -163,7 +165,8 @@ $(document).ready(function () {
       if (bool3 == false) {
         count++;
         bool3 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -174,7 +177,8 @@ $(document).ready(function () {
       if (bool4 == false) {
         count++;
         bool4 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -185,7 +189,8 @@ $(document).ready(function () {
       if (bool5 == false) {
         count++;
         bool5 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -196,7 +201,8 @@ $(document).ready(function () {
       if (bool6 == false) {
         count++;
         bool6 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -207,7 +213,8 @@ $(document).ready(function () {
       if (bool7 == false) {
         count++;
         bool7 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -218,7 +225,8 @@ $(document).ready(function () {
       if (bool8 == false) {
         count++;
         bool8 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -229,7 +237,8 @@ $(document).ready(function () {
       if (bool9 == false) {
         count++;
         bool9 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -240,7 +249,8 @@ $(document).ready(function () {
       if (bool10 == false) {
         count++;
         bool10 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -251,7 +261,8 @@ $(document).ready(function () {
       if (bool11 == false) {
         count++;
         bool11 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -262,7 +273,8 @@ $(document).ready(function () {
       if (bool12 == false) {
         count++;
         bool12 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -273,7 +285,8 @@ $(document).ready(function () {
       if (bool13 == false) {
         count++;
         bool13 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -284,7 +297,8 @@ $(document).ready(function () {
       if (bool14 == false) {
         count++;
         bool14 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -295,7 +309,8 @@ $(document).ready(function () {
       if (bool15 == false) {
         count++;
         bool15 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -306,7 +321,8 @@ $(document).ready(function () {
       if (bool16 == false) {
         count++;
         bool16 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -317,7 +333,8 @@ $(document).ready(function () {
       if (bool17 == false) {
         count++;
         bool17 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -328,7 +345,8 @@ $(document).ready(function () {
       if (bool18 == false) {
         count++;
         bool18 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -339,7 +357,8 @@ $(document).ready(function () {
       if (bool19 == false) {
         count++;
         bool19 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -350,7 +369,8 @@ $(document).ready(function () {
       if (bool20 == false) {
         count++;
         bool20 = true;
-        $("#count").html(count);      }
+        $("#count").html(count);
+      }
     } else alert(found10);
   })
 
@@ -371,7 +391,7 @@ $(document).ready(function () {
   });
 
   $("#cletus").click(function () {
-    $(this).hide(); 
+    $(this).hide();
     $("#betty").show();
   });
 
@@ -407,8 +427,8 @@ $(document).ready(function () {
   $("#rightguess").click(function () {
     window.open("storyend2.html");
   });
-  
-  $(".guess").click(function() {
+
+  $(".guess").click(function () {
     if (count >= 10) {
       window.open("guess.html");
     } else alert("You must find ten clues before you guess who the killer is.");

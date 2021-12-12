@@ -49,7 +49,7 @@ h5 {
     text-decoration: none;
 }
 
-#clue_count{
+#clue_count {
     float: right;
     font-family: Amatic;
     font-size: 30px;
@@ -325,7 +325,7 @@ where the clue is in the room. */
 
 /* When the user enters a room, the class of that room gets changed to this class.
    It makes the room large and center in the browser window. */
-   .cur {
+.cur {
     position: absolute;
     text-align: center;
     top: 30%;
@@ -370,18 +370,23 @@ where the clue is in the room. */
     .office {
         top: 550px;
     }
+
     .guest_room {
         top: 550px;
     }
+
     .living_room {
         top: 550px;
     }
+
     .bathroom {
         top: 900px;
     }
+
     .kitchen {
         top: 900px;
     }
+
     #floorplan_body {
         height: 1300px;
     }
