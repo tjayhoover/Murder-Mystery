@@ -420,4 +420,10 @@ $(document).ready(function () {
     $(".three").show();
   });
 
+  // This function allows the user to make a guess only after finding ten clues.
+  $("#make_guess").click(function () {
+    if (count >= 10) {
+      window.location.href = "guess.html";
+    } else alert("You need to find ten clues before you can guess who the killer is.");
+  });
 }); //end doc.ready
