@@ -317,7 +317,7 @@ $(document).ready(function () {
   let bool16 = false;
   $('.boots').click(function () {
     if (count < 10) {
-      alert("You have found a boots! Upon inspecting the boots, you find that they are muddy and look worn. They must be teh killer's");
+      alert("You have found a boots! Upon inspecting the boots, you find that they are muddy and look worn. They must be the killer's");
       if (bool16 == false) {
         count++;
         bool16 = true;
