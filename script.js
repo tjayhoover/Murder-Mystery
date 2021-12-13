@@ -173,7 +173,7 @@ $(document).ready(function () {
   let bool4 = false;
   $('.bat').click(function () {
     if (count < 10) {
-      alert("You have found a bat! Doesn't your freind Bubba play baseball?");
+      alert("Why is there a bat in the dining room? Doesn't your freind Bubba play baseball?");
       if (bool4 == false) {
         count++;
         bool4 = true;
