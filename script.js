@@ -137,7 +137,7 @@ $(document).ready(function () {
   let bool1 = false;
   $('.briefcase').click(function () {
     if (count < 10) {
-      alert("You have found a briefcase!");
+      alert("As you open this briefcase, dust comes off. Looks like it has not been touched in quite some time!");
       if (bool1 == false) {
         count++;
         bool1 = true;
@@ -149,7 +149,7 @@ $(document).ready(function () {
   let bool2 = false;
   $('.clock').click(function () {
     if (count < 10) {
-      alert("You have found a clock!");
+      alert("It has been exactly 13 minutes since the power came back on and 28 minutes since the movie started.");
       if (bool2 == false) {
         count++;
         bool2 = true;
@@ -161,7 +161,7 @@ $(document).ready(function () {
   let bool3 = false;
   $('.clothingonfloor').click(function () {
     if (count < 10) {
-      alert("You have found clothing on the floor!");
+      alert("Most of this clothing is a women's size medium and a men's size large. Why are they piled on the floor like this? Is that John's favorite t-shirt?");
       if (bool3 == false) {
         count++;
         bool3 = true;
@@ -173,7 +173,7 @@ $(document).ready(function () {
   let bool4 = false;
   $('.bat').click(function () {
     if (count < 10) {
-      alert("You have found a bat!");
+      alert("Why is there a bat in the dining room? Doesn't your freind Bubba play baseball?");
       if (bool4 == false) {
         count++;
         bool4 = true;
@@ -185,7 +185,7 @@ $(document).ready(function () {
   let bool5 = false;
   $('.footprints').click(function () {
     if (count < 10) {
-      alert("You have found footprints!");
+      alert("Bootprints! They seem to match the boots in the guest room!");
       if (bool5 == false) {
         count++;
         bool5 = true;
@@ -197,7 +197,7 @@ $(document).ready(function () {
   let bool6 = false;
   $('.notes').click(function () {
     if (count < 10) {
-      alert("You have found notes!");
+      alert("You find a crumbled note on the floor. It reads: He should watch out. He deserved what was coming to him. Show. No. Mercy.");
       if (bool6 == false) {
         count++;
         bool6 = true;
@@ -209,7 +209,7 @@ $(document).ready(function () {
   let bool7 = false;
   $('.bloodstain2').click(function () {
     if (count < 10) {
-      alert("You have found a bloodstain!");
+      alert("Why is there fresh blood on the counter? Who injured themselves here and why were they in the kitchen?");
       if (bool7 == false) {
         count++;
         bool7 = true;
@@ -221,7 +221,7 @@ $(document).ready(function () {
   let bool8 = false;
   $('.fork').click(function () {
     if (count < 10) {
-      alert("You have found a fork!");
+      alert("Upon closer inspection, you notice one part of this fork is bent to the left. Why is that?");
       if (bool8 == false) {
         count++;
         bool8 = true;
@@ -233,7 +233,7 @@ $(document).ready(function () {
   let bool9 = false;
   $('.hand').click(function () {
     if (count < 10) {
-      alert("You have found a hand!");
+      alert("OMG you found John! He has a few stab wounds and he is covered in blood. The cuts are fresh and he is still bleeding. Unfortunately as you go to check is he is breathing, you discover that he is dead.");
       if (bool9 == false) {
         count++;
         bool9 = true;
@@ -245,7 +245,7 @@ $(document).ready(function () {
   let bool10 = false;
   $('.splatter').click(function () {
     if (count < 10) {
-      alert("You have found a splatter!");
+      alert("Based on the angle of this blood splatter, it looks like John was standing in front of the mirror when he was stabbed from behind.");
       if (bool10 == false) {
         count++;
         bool10 = true;
@@ -257,7 +257,7 @@ $(document).ready(function () {
   let bool11 = false;
   $('.knife').click(function () {
     if (count < 10) {
-      alert("You have found a knife!");
+      alert("Was this the murder weapon? Did the killer not have time to put it away?");
       if (bool11 == false) {
         count++;
         bool11 = true;
@@ -269,7 +269,7 @@ $(document).ready(function () {
   let bool12 = false;
   $('.hairbrush').click(function () {
     if (count < 10) {
-      alert("You have found a hairbrush!");
+      alert("This hairbrush has some long, dark hair on it, so it's not John's... Could it be Gwen's?");
       if (bool12 == false) {
         count++;
         bool12 = true;
@@ -281,7 +281,7 @@ $(document).ready(function () {
   let bool13 = false;
   $('.bloodstain1').click(function () {
     if (count < 10) {
-      alert("You have found a bloodtain!");
+      alert("Hm, this bloodstain looks old. It is a dark red and sort of faded.");
       if (bool13 == false) {
         count++;
         bool13 = true;
@@ -293,7 +293,7 @@ $(document).ready(function () {
   let bool14 = false;
   $('.flowerpot').click(function () {
     if (count < 10) {
-      alert("You have found a flowerpot!");
+      alert("Oh no... the flowerpot... it's broken. It must have be kicked over in the power outage.");
       if (bool14 == false) {
         count++;
         bool14 = true;
@@ -305,7 +305,7 @@ $(document).ready(function () {
   let bool15 = false;
   $('.bloodstain3').click(function () {
     if (count < 10) {
-      alert("You have found a bloodstain!");
+      alert("Why is there a bloodstain on the pillow? It looks fresh. Could it be from one of the injuries you and your friend have?");
       if (bool15 == false) {
         count++;
         bool15 = true;
@@ -317,7 +317,7 @@ $(document).ready(function () {
   let bool16 = false;
   $('.boots').click(function () {
     if (count < 10) {
-      alert("You have found a boots!");
+      alert("These boots are muddy and worn but no one will claim them as their own... They could be the killer's!");
       if (bool16 == false) {
         count++;
         bool16 = true;
@@ -329,7 +329,7 @@ $(document).ready(function () {
   let bool17 = false;
   $('.teddybear').click(function () {
     if (count < 10) {
-      alert("You have found a teddy bear!");
+      alert("Hm, who's teddybear is this?");
       if (bool17 == false) {
         count++;
         bool17 = true;
@@ -341,7 +341,7 @@ $(document).ready(function () {
   let bool18 = false;
   $('.polish').click(function () {
     if (count < 10) {
-      alert("You have found polish!");
+      alert("Someone's nail polish is spilled here. You remember seeing it somewhere earlier in the night but it is in a different spot than before. Betty is wearing thick, red lipstick...");
       if (bool18 == false) {
         count++;
         bool18 = true;
@@ -353,7 +353,7 @@ $(document).ready(function () {
   let bool19 = false;
   $('.suitcase').click(function () {
     if (count < 10) {
-      alert("You have found a suitcase!");
+      alert("This suitcase is packed with a man's clothes... It is almost packed like they were in a hurry.");
       if (bool19 == false) {
         count++;
         bool19 = true;
@@ -365,12 +365,7 @@ $(document).ready(function () {
   let bool20 = false;
   $('.timenote').click(function () {
     if (count < 10) {
-      alert("You have found a cryptic note!");
-      if (bool20 == false) {
-        count++;
-        bool20 = true;
-        $("#count").html(count);
-      }
+      alert("You have found a cryptic note that reads: The clock is ticking... Haha, you will never catch me just like you will never talk to your friend John again!");
     } else alert(found10);
   })
 
@@ -419,11 +414,5 @@ $(document).ready(function () {
     $(this).hide();
     $(".three").show();
   });
-
-  // This function allows the user to make a guess only after finding ten clues.
-  $("#make_guess").click(function () {
-    if (count >= 10) {
-      window.location.href = "guess.html";
-    } else alert("You need to find ten clues before you can guess who the killer is.");
-  });
+  
 }); //end doc.ready
