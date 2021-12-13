@@ -137,7 +137,7 @@ $(document).ready(function () {
   let bool1 = false;
   $('.briefcase').click(function () {
     if (count < 10) {
-      alert("You have found a briefcase! As you open it, dust comes off. Looks like it has not been touched in quite some time!");
+      alert("As you open this briefcase, dust comes off. Looks like it has not been touched in quite some time!");
       if (bool1 == false) {
         count++;
         bool1 = true;
@@ -149,7 +149,7 @@ $(document).ready(function () {
   let bool2 = false;
   $('.clock').click(function () {
     if (count < 10) {
-      alert("You have found a clock! It has been exactly 13 minutes since the power came back on and 28 minutes since the movie started. ");
+      alert("It has been exactly 13 minutes since the power came back on and 28 minutes since the movie started.");
       if (bool2 == false) {
         count++;
         bool2 = true;
@@ -161,7 +161,7 @@ $(document).ready(function () {
   let bool3 = false;
   $('.clothingonfloor').click(function () {
     if (count < 10) {
-      alert("You have found clothing on the floor! Most of the clothing is a women's size medium and a men's size large.");
+      alert("Most of this clothing is a women's size medium and a men's size large. Why are they piled on the floor like this? Is that John's favorite t-shirt?");
       if (bool3 == false) {
         count++;
         bool3 = true;
@@ -173,7 +173,7 @@ $(document).ready(function () {
   let bool4 = false;
   $('.bat').click(function () {
     if (count < 10) {
-      alert("You have found a bat! Didn't your freind Bubba Bomb play baseball?");
+      alert("You have found a bat! Doesn't your freind Bubba play baseball?");
       if (bool4 == false) {
         count++;
         bool4 = true;
@@ -185,7 +185,7 @@ $(document).ready(function () {
   let bool5 = false;
   $('.footprints').click(function () {
     if (count < 10) {
-      alert("You have found footprints! They seem to be a size 10, but you can't tell if they belong to a women or a man");
+      alert("Bootprints! They seem to match the boots in the guest room!");
       if (bool5 == false) {
         count++;
         bool5 = true;
@@ -197,7 +197,7 @@ $(document).ready(function () {
   let bool6 = false;
   $('.notes').click(function () {
     if (count < 10) {
-      alert("You have found notes! The note reads: He should watch out. He deserves what is coming to him. Show. No. Mercy.");
+      alert("You find a crumbled note on the floor. It reads: He should watch out. He deserved what was coming to him. Show. No. Mercy.");
       if (bool6 == false) {
         count++;
         bool6 = true;
@@ -209,7 +209,7 @@ $(document).ready(function () {
   let bool7 = false;
   $('.bloodstain2').click(function () {
     if (count < 10) {
-      alert("You have found a bloodstain! The blood seems fresh!");
+      alert("Why is there fresh blood on the counter? Who injured themselves here and why were they in the kitchen?");
       if (bool7 == false) {
         count++;
         bool7 = true;
@@ -221,7 +221,7 @@ $(document).ready(function () {
   let bool8 = false;
   $('.fork').click(function () {
     if (count < 10) {
-      alert("You have found a fork! As you inspect it more, the one part of the fork is bent to the left");
+      alert("Upon closer inspection, you notice one part of this fork is bent to the left. Why is that?");
       if (bool8 == false) {
         count++;
         bool8 = true;
@@ -233,7 +233,7 @@ $(document).ready(function () {
   let bool9 = false;
   $('.hand').click(function () {
     if (count < 10) {
-      alert("OMG you found John's body! He has a few stab wounds and he is covered in blood. These cuts are fresh and he is still bleeding. Unfortunately as you go to check is he is breathing, you discover that he is not breathing.");
+      alert("OMG you found John! He has a few stab wounds and he is covered in blood. The cuts are fresh and he is still bleeding. Unfortunately as you go to check is he is breathing, you discover that he is dead.");
       if (bool9 == false) {
         count++;
         bool9 = true;
@@ -245,7 +245,7 @@ $(document).ready(function () {
   let bool10 = false;
   $('.splatter').click(function () {
     if (count < 10) {
-      alert("You have found a splatter! Based on the angle of the splatter, it looks like John was killed here");
+      alert("Based on the angle of this blood splatter, it looks like John was standing in front of the mirror when he was stabbed from behind.");
       if (bool10 == false) {
         count++;
         bool10 = true;
@@ -257,7 +257,7 @@ $(document).ready(function () {
   let bool11 = false;
   $('.knife').click(function () {
     if (count < 10) {
-      alert("You have found a knife! This was the murder weapon. Looks like the killer did not have time to put it away");
+      alert("Was this the murder weapon? Did the killer not have time to put it away?");
       if (bool11 == false) {
         count++;
         bool11 = true;
@@ -269,7 +269,7 @@ $(document).ready(function () {
   let bool12 = false;
   $('.hairbrush').click(function () {
     if (count < 10) {
-      alert("You have found a hairbrush! The hairbrush has some brown hair on it");
+      alert("This hairbrush has some long, dark hair on it, so it's not John's... Could it be Gwen's?");
       if (bool12 == false) {
         count++;
         bool12 = true;
@@ -281,7 +281,7 @@ $(document).ready(function () {
   let bool13 = false;
   $('.bloodstain1').click(function () {
     if (count < 10) {
-      alert("You have found a bloodtain! This looks old. It is a dark red and sort of faded");
+      alert("Hm, this bloodstain looks old. It is a dark red and sort of faded.");
       if (bool13 == false) {
         count++;
         bool13 = true;
@@ -293,7 +293,7 @@ $(document).ready(function () {
   let bool14 = false;
   $('.flowerpot').click(function () {
     if (count < 10) {
-      alert("Oh No... the flowerpot... its broken. It must have be kicked over in the power outage");
+      alert("Oh no... the flowerpot... it's broken. It must have be kicked over in the power outage.");
       if (bool14 == false) {
         count++;
         bool14 = true;
@@ -305,7 +305,7 @@ $(document).ready(function () {
   let bool15 = false;
   $('.bloodstain3').click(function () {
     if (count < 10) {
-      alert("You have found a bloodstain! This one looks fresh. It must be John's");
+      alert("Why is there a bloodstain on the pillow? It looks fresh. Could it be from one of the injuries you and your friend have?");
       if (bool15 == false) {
         count++;
         bool15 = true;
@@ -317,7 +317,7 @@ $(document).ready(function () {
   let bool16 = false;
   $('.boots').click(function () {
     if (count < 10) {
-      alert("You have found a boots! Upon inspecting the boots, you find that they are muddy and look worn. They must be the killer's");
+      alert("These boots are muddy and worn but no one will claim them as their own... They could be the killer's!");
       if (bool16 == false) {
         count++;
         bool16 = true;
@@ -329,7 +329,7 @@ $(document).ready(function () {
   let bool17 = false;
   $('.teddybear').click(function () {
     if (count < 10) {
-      alert("You have found a HEADLESS teddy bear! Guess the killer was practicing");
+      alert("Hm, who's teddybear is this?");
       if (bool17 == false) {
         count++;
         bool17 = true;
@@ -341,7 +341,7 @@ $(document).ready(function () {
   let bool18 = false;
   $('.polish').click(function () {
     if (count < 10) {
-      alert("You have found polish! The polish does not look opened, but it is in a different spot than when you saw it earlier in the night");
+      alert("Someone's nail polish is spilled here. You remember seeing it somewhere earlier in the night but it is in a different spot than before. Betty is wearing thick, red lipstick...");
       if (bool18 == false) {
         count++;
         bool18 = true;
@@ -353,7 +353,7 @@ $(document).ready(function () {
   let bool19 = false;
   $('.suitcase').click(function () {
     if (count < 10) {
-      alert("You have found a suitcase! The suitcase is packed with a man's clothes. It is almost packed like they were in a hurry");
+      alert("This suitcase is packed with a man's clothes... It is almost packed like they were in a hurry.");
       if (bool19 == false) {
         count++;
         bool19 = true;
@@ -365,12 +365,7 @@ $(document).ready(function () {
   let bool20 = false;
   $('.timenote').click(function () {
     if (count < 10) {
-      alert("You have found a cryptic note! The note says: Haha, you will never catch me just like you will never talk to your friend John again");
-      if (bool20 == false) {
-        count++;
-        bool20 = true;
-        $("#count").html(count);
-      }
+      alert("You have found a cryptic note that reads: The clock is ticking... Haha, you will never catch me just like you will never talk to your friend John again!");
     } else alert(found10);
   })
 
