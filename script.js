@@ -233,7 +233,7 @@ $(document).ready(function () {
   let bool9 = false;
   $('.hand').click(function () {
     if (count < 10) {
-      alert("OMG you found John's body! He has a few stab wounds and he is covered in blood. These cuts are fresh and he is still bleeding. Unfortunetly as you go to check is he is breathing, you discover that he is not breathing.");
+      alert("OMG you found John's body! He has a few stab wounds and he is covered in blood. These cuts are fresh and he is still bleeding. Unfortunately as you go to check is he is breathing, you discover that he is not breathing.");
       if (bool9 == false) {
         count++;
         bool9 = true;
