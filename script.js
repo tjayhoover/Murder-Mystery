@@ -144,7 +144,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool2 = false;
   $('.clock').click(function () {
@@ -156,7 +156,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool3 = false;
   $('.clothingonfloor').click(function () {
@@ -168,7 +168,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool4 = false;
   $('.bat').click(function () {
@@ -180,7 +180,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool5 = false;
   $('.footprints').click(function () {
@@ -192,7 +192,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool6 = false;
   $('.notes').click(function () {
@@ -204,7 +204,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool7 = false;
   $('.bloodstain2').click(function () {
@@ -216,7 +216,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool8 = false;
   $('.fork').click(function () {
@@ -228,7 +228,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool9 = false;
   $('.hand').click(function () {
@@ -240,7 +240,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool10 = false;
   $('.splatter').click(function () {
@@ -252,7 +252,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool11 = false;
   $('.knife').click(function () {
@@ -264,7 +264,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool12 = false;
   $('.hairbrush').click(function () {
@@ -276,7 +276,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool13 = false;
   $('.bloodstain1').click(function () {
@@ -288,7 +288,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool14 = false;
   $('.flowerpot').click(function () {
@@ -300,7 +300,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool15 = false;
   $('.bloodstain3').click(function () {
@@ -312,7 +312,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool16 = false;
   $('.boots').click(function () {
@@ -324,7 +324,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool17 = false;
   $('.teddybear').click(function () {
@@ -336,7 +336,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool18 = false;
   $('.polish').click(function () {
@@ -348,7 +348,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool19 = false;
   $('.suitcase').click(function () {
@@ -360,7 +360,7 @@ $(document).ready(function () {
         $("#count").html(count);
       }
     } else alert(found10);
-  })
+  });
 
   let bool20 = false;
   $('.timenote').click(function () {
@@ -370,8 +370,9 @@ $(document).ready(function () {
         count++;
         bool20 = true;
         $("#count").html(count);
+      }
     } else alert(found10);
-  })
+  });
 
   // The functions below allow the user to flip through the story.
   $(".one").click(function () {
