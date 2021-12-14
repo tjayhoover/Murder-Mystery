@@ -366,6 +366,10 @@ $(document).ready(function () {
   $('.timenote').click(function () {
     if (count < 10) {
       alert("You have found a cryptic note that reads: The clock is ticking... Haha, you will never catch me just like you will never talk to your friend John again!");
+      if (bool20 == false) {
+        count++;
+        bool20 = true;
+        $("#count").html(count);
     } else alert(found10);
   })
 
